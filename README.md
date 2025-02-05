@@ -9,7 +9,7 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ---
 
-## Selected Papers on Depth Estimation
+## 1. Selected Papers on Depth Estimation
 
 ### **UniDepth: Universal Monocular Metric Depth Estimation**  
 
@@ -30,7 +30,7 @@ Published: CVPR 2024
 
 ---
 
-## Useful Datasets
+## 2. Useful Datasets
 
 Here is a list of useful datasets for depth estimation:
 
@@ -89,7 +89,7 @@ Published: ICCV 2021
 
 ---
 
-## Evaluation Metrics
+## 3. Evaluation Metrics
 
 To evaluate depth estimation models, the following metrics are commonly used:
 
