@@ -1,6 +1,14 @@
 # Awesome-Depth-Estimation
 A curated list of papers and resources focused on Depth Estimation. 
 
+## Table of Contents
+
+1. [Selected Papers on Depth Estimation](#selected-papers-on-depth-estimation)
+2. [Useful Datasets](#useful-datasets)
+3. [Evaluation Metrics](#evaluation-metrics)
+
+---
+
 ## Selected Papers on Depth Estimation
 
 ### **UniDepth: Universal Monocular Metric Depth Estimation**  
@@ -22,3 +30,20 @@ Published: CVPR 2024
 
 ---
 
+## Useful Datasets
+
+Here is a list of useful datasets for depth estimation:
+
+1. **KITTI Dataset**: A well-known dataset for depth estimation and autonomous driving tasks.
+2. **NYU Depth V2**: A large dataset with indoor scenes, used for monocular depth estimation.
+3. **ScanNet**: A dataset for 3D scene understanding, which includes RGB-D data.
+
+---
+
+## Evaluation Metrics
+
+To evaluate depth estimation models, the following metrics are commonly used:
+
+1. **Mean Absolute Error (MAE)**: Measures the average absolute difference between predicted and ground truth depth values.
+2. **Root Mean Squared Error (RMSE)**: Measures the square root of the mean squared differences between predicted and ground truth depth values.
+3. **Threshold Accuracy**: Measures the percentage of predictions that are within a certain threshold of the ground truth.
