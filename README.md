@@ -34,9 +34,31 @@ Published: CVPR 2024
 
 Here is a list of useful datasets for depth estimation:
 
-1. **KITTI Dataset**: A well-known dataset for depth estimation and autonomous driving tasks.
-2. **NYU Depth V2**: A large dataset with indoor scenes, used for monocular depth estimation.
-3. **ScanNet**: A dataset for 3D scene understanding, which includes RGB-D data.
+### **NYU Depth Dataset V2**  
+Authors: Nathan Silberman, Pushmeet Kohli, Derek Hoiem, Rob Fergus  
+Published: ECCV 2012
+
+**[Paper](https://cs.nyu.edu/~fergus/datasets/indoor_seg_support.pdf)** | **[Project](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html)**
+---
+
+### **ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
+Authors: Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Nießner
+
+**[Paper](http://www.scan-net.org/)** | **[Project](https://github.com/ScanNet/ScanNet)**
+
+---
+
+### **SUN3D: A Database of Big Spaces Reconstructed using SfM and Object Labels**  
+Authors: Jianxiong Xiao, Andrew Owens, Antonio Torralba  
+Published: Proceedings of 14th IEEE International Conference on Computer Vision (ICCV2013)
+
+**[Paper](https://vision.princeton.edu/projects/2013/SUN3D/paper.pdf)** | **[Project](https://sun3d.cs.princeton.edu/)**
+
+---
+
+
+
+
 
 ---
 
