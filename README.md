@@ -5,9 +5,9 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ### **UniDepth: Universal Monocular Metric Depth Estimation**  
 
-**Authors**: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu  
+Authors: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu  
 
-**Published**: CVPR 2024
+Published: CVPR 2024
 
 **[Paper](https://arxiv.org/pdf/2403.18913)**  **[Project](https://lpiccinelli-eth.github.io/pub/unidepth/)**  **[Code](https://github.com/lpiccinelli-eth/UniDepth)**
 
