@@ -96,34 +96,34 @@ To evaluate depth estimation models, the following metrics are commonly used:
 1. **AbsRel (Absolute Relative Error)**:
    - **Definition**: Measures the average relative error between predicted depth and ground truth depth.
    - **Formula**:
-     $$
-     \text{AbsRel} = \frac{1}{N} \sum_{i=1}^{N} \frac{|\hat{d}_i - d_i|}{d_i}
-     $$  
-     Where \( \hat{d}_i \) is the predicted depth, \( d_i \) is the ground truth depth, and \( N \) is the number of pixels or points.
+     ```
+     AbsRel = (1 / N) * Σ |d_hat_i - d_i| / d_i
+     ```
+     Where `d_hat_i` is the predicted depth, `d_i` is the ground truth depth, and `N` is the number of pixels or points.
 
 2. **δ₁ (Delta 1)**:
    - **Definition**: Measures the percentage of predictions where the predicted depth is within a factor of 1.0 of the ground truth depth.
    - **Formula**:
-     $$
-     \delta_1 = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}\left(\frac{\hat{d}_i}{d_i} < 1.0\right)
-     $$  
-     Where \( \hat{d}_i \) is the predicted depth, \( d_i \) is the ground truth depth, and \( \mathbf{1} \) is an indicator function that equals 1 if the condition is true, otherwise 0.
+     ```
+     δ₁ = (1 / N) * Σ 1{d_hat_i / d_i < 1.0}
+     ```
+     Where `d_hat_i` is the predicted depth, `d_i` is the ground truth depth, and the indicator function equals 1 if the condition is true, otherwise 0.
 
 3. **RMS (Root Mean Squared Error)**:
    - **Definition**: Measures the square root of the average squared differences between predicted and ground truth depths.
    - **Formula**:
-     $$
-     RMS = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (\hat{d}_i - d_i)^2}
-     $$  
-     Where \( \hat{d}_i \) is the predicted depth, \( d_i \) is the ground truth depth, and \( N \) is the number of pixels or points.
+     ```
+     RMS = sqrt((1 / N) * Σ (d_hat_i - d_i)²)
+     ```
+     Where `d_hat_i` is the predicted depth, `d_i` is the ground truth depth, and `N` is the number of pixels or points.
 
 4. **RMSlog (Logarithmic Root Mean Squared Error)**:
    - **Definition**: Similar to RMS, but applied to the logarithms of the depth values to focus on the relative differences.
    - **Formula**:
-     $$
-     RMS_{\log} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} \left(\log(\hat{d}_i) - \log(d_i)\right)^2}
-     $$  
-     Where \( \log \) represents the logarithmic transformation.
+     ```
+     RMS_log = sqrt((1 / N) * Σ (log(d_hat_i) - log(d_i))²)
+     ```
+     Where `log` is the logarithmic transformation.
 
 5. **CD (Chernoff Distance)**:
    - **Definition**: Measures the difference between predicted and ground truth depth distributions.
@@ -132,10 +132,8 @@ To evaluate depth estimation models, the following metrics are commonly used:
 6. **SIlog (Scaled Logarithmic Error)**:
    - **Definition**: Evaluates the error in the logarithmic scale of depth values, scaled to the range of depths.
    - **Formula**:
-     $$
-     SI_{\log} = \frac{1}{N} \sum_{i=1}^{N} \left|\log(\hat{d}_i) - \log(d_i)\right|
-     $$  
-     Where \( \hat{d}_i \) is the predicted depth and \( d_i \) is the ground truth depth.
-
-
+     ```
+     SI_log = (1 / N) * Σ |log(d_hat_i) - log(d_i)|
+     ```
+     Where `d_hat_i` is the predicted depth and `d_i` is the ground truth depth.
 
