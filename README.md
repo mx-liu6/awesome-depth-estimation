@@ -11,7 +11,7 @@ Published: CVPR 2024
 
 **[Paper](https://arxiv.org/pdf/2403.18913)** | **[Project](https://lpiccinelli-eth.github.io/pub/unidepth/)** | **[Code](https://github.com/lpiccinelli-eth/UniDepth)**
 
-**Keywords**: *Monocular Depth Estimation*, *3D Perception*, *Zero-shot Learning*, *Geometric Invariance Loss*
+**Keywords**: *Monocular Depth Estimation* *Transformer based* *Images Depth*
 
 <details>
   <summary>Click to view Abstract</summary>
