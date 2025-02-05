@@ -66,8 +66,8 @@ Authors: Andreas Geiger, Philip Lenz, Christoph Stiller, Raquel Urtasun
 
 ### **DDAD-Dense Depth for Autonomous Driving**  
 Authors: Vitor Guizilini, Rares Ambrus, Sudeep Pillai, Allan Raventos, Adrien Gaidon  
+Published: CVPR 2020  
 
-**Published**: CVPR 2020  
 **[Project](https://github.com/TRI-ML/DDAD)**
 
 ---
@@ -77,6 +77,13 @@ Authors: Igor Vasiljevic, Nick Kolkin, Shanyi Zhang, Ruotian Luo, Haochen Wang, 
 
 **[Project](https://diode-dataset.org/)** | **[Paper](https://arxiv.org/pdf/1908.00463)** | **[Code](https://github.com/diode-dataset/diode-devkit)**
 
+---
+
+### **Hypersim**  
+Authors: Mike Roberts, Jason Ramapuram, Anurag Ranjan, Atulit Kumar, Miguel Angel Bautista, Nathan Paczan, Russ Webb, Joshua M. Susskind  
+Published: ICCV 2021
+
+**[Project](https://github.com/apple/ml-hypersim)**
 
 
 
@@ -86,6 +93,48 @@ Authors: Igor Vasiljevic, Nick Kolkin, Shanyi Zhang, Ruotian Luo, Haochen Wang, 
 
 To evaluate depth estimation models, the following metrics are commonly used:
 
-1. **Mean Absolute Error (MAE)**: Measures the average absolute difference between predicted and ground truth depth values.
-2. **Root Mean Squared Error (RMSE)**: Measures the square root of the mean squared differences between predicted and ground truth depth values.
-3. **Threshold Accuracy**: Measures the percentage of predictions that are within a certain threshold of the ground truth.
+1. **AbsRel (Absolute Relative Error)**:
+   - **Definition**: Measures the average relative error between predicted depth and ground truth depth.
+   - **Formula**:
+     \[
+     \text{AbsRel} = \frac{1}{N} \sum_{i=1}^{N} \frac{|\hat{d}_i - d_i|}{d_i}
+     \]
+     Where \(\hat{d}_i\) is the predicted depth, \(d_i\) is the ground truth depth, and \(N\) is the number of pixels or points.
+
+2. **δ₁ (Delta 1)**:
+   - **Definition**: Measures the percentage of predictions where the predicted depth is within a factor of 1.0 of the ground truth depth.
+   - **Formula**:
+     \[
+     \delta_1 = \frac{1}{N} \sum_{i=1}^{N} \mathbf{1}\left(\frac{\hat{d}_i}{d_i} < 1.0\right)
+     \]
+     Where \(\hat{d}_i\) is the predicted depth, \(d_i\) is the ground truth depth, and \(\mathbf{1}\) is an indicator function that equals 1 if the condition is true, otherwise 0.
+
+3. **RMS (Root Mean Squared Error)**:
+   - **Definition**: Measures the square root of the average squared differences between predicted and ground truth depths.
+   - **Formula**:
+     \[
+     RMS = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (\hat{d}_i - d_i)^2}
+     \]
+     Where \(\hat{d}_i\) is the predicted depth, \(d_i\) is the ground truth depth, and \(N\) is the number of pixels or points.
+
+4. **RMSlog (Logarithmic Root Mean Squared Error)**:
+   - **Definition**: Similar to RMS, but applied to the logarithms of the depth values to focus on the relative differences.
+   - **Formula**:
+     \[
+     RMS_{\log} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} \left(\log(\hat{d}_i) - \log(d_i)\right)^2}
+     \]
+     Where \(\log\) represents the logarithmic transformation.
+
+5. **CD (Chernoff Distance)**:
+   - **Definition**: Measures the difference between predicted and ground truth depth distributions.
+   - **Formula**: Typically computed using statistical distance measures such as KL divergence or other distribution-based methods.
+
+6. **SIlog (Scaled Logarithmic Error)**:
+   - **Definition**: Evaluates the error in the logarithmic scale of depth values, scaled to the range of depths.
+   - **Formula**:
+     \[
+     SI_{\log} = \frac{1}{N} \sum_{i=1}^{N} \left|\log(\hat{d}_i) - \log(d_i)\right|
+     \]
+     Where \(\hat{d}_i\) is the predicted depth and \(d_i\) is the ground truth depth.
+
+
