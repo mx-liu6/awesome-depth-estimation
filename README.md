@@ -39,6 +39,7 @@ Authors: Nathan Silberman, Pushmeet Kohli, Derek Hoiem, Rob Fergus
 Published: ECCV 2012
 
 **[Paper](https://cs.nyu.edu/~fergus/datasets/indoor_seg_support.pdf)** | **[Project](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html)**
+
 ---
 
 ### **ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
