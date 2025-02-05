@@ -43,9 +43,9 @@ Published: ECCV 2012
 ---
 
 ### **ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
-Authors: Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Nießner
+Authors: Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Nießner  
 
-**[Paper](http://www.scan-net.org/)** | **[Project](https://github.com/ScanNet/ScanNet)**
+**[Paper](http://www.scan-net.org/)** | **[Project](https://github.com/ScanNet/ScanNet)** | **[Code](https://github.com/ScanNet/ScanNet)**
 
 ---
 
@@ -57,6 +57,25 @@ Published: Proceedings of 14th IEEE International Conference on Computer Vision 
 
 ---
 
+### **KITTI**  
+Authors: Andreas Geiger, Philip Lenz, Christoph Stiller, Raquel Urtasun  
+
+**[Project](https://www.cvlibs.net/datasets/kitti/)**
+
+---
+
+### **DDAD-Dense Depth for Autonomous Driving**  
+Authors: Vitor Guizilini, Rares Ambrus, Sudeep Pillai, Allan Raventos, Adrien Gaidon  
+
+**Published**: CVPR 2020  
+**[Project](https://github.com/TRI-ML/DDAD)**
+
+---
+
+### **DIODE: A Dense Indoor and Outdoor DEpth Dataset**  
+Authors: Igor Vasiljevic, Nick Kolkin, Shanyi Zhang, Ruotian Luo, Haochen Wang, Falcon Z. Dai, Andrea F. Daniele, Mohammadreza Mostajabi, Steven Basart, Matthew R. Walter, Gregory Shakhnarovich  
+
+**[Project](https://diode-dataset.org/)** | **[Paper](https://arxiv.org/pdf/1908.00463)** | **[Code](https://github.com/diode-dataset/diode-devkit)**
 
 
 
