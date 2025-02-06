@@ -32,7 +32,7 @@ Published: CVPR 2024
 
 Authors: Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan  
 
-Published: CVPR 2024
+Published: arXiv 2024
 
 **[Paper](https://arxiv.org/pdf/2409.02095)** | **[Project](https://depthcrafter.github.io/)** | **[Code](https://github.com/Tencent/DepthCrafter)**
 
@@ -45,6 +45,22 @@ Published: CVPR 2024
   
 </details>
 
+### **DepthLab: From Partial to Complete**  
+
+Authors: Zhiheng Liu, Ka Leong Cheng, Qiuyu Wang, Shuzhe Wang, Hao Ouyang, Bin Tan, Kai Zhu, Yujun Shen, Qifeng Chen, Ping Luo  
+
+Published: arXiv 2024
+
+**[Paper](https://arxiv.org/pdf/2412.18153)** | **[Project](https://johanan528.github.io/depthlab_web/)** | **[Code](https://github.com/ant-research/DepthLab)**
+
+***Keywords***: *Depth Inpainting*, *Image Diffusion Priors*, *3D Scene Inpainting*, *LiDAR Depth Completion*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Missing values remain a common challenge for depth data across its wide range of applications, stemming from various causes like incomplete data acquisition and perspective alteration. This work bridges this gap with DepthLab, a foundation depth inpainting model powered by image diffusion priors. Our model features two notable strengths: (1) it demonstrates resilience to depth-deficient regions, providing reliable completion for both continuous areas and isolated points, and (2) it faithfully preserves scale consistency with the conditioned known depth when filling in missing values. Drawing on these advantages, our approach proves its worth in various downstream tasks, including 3D scene inpainting, text-to-3D scene generation, sparse-view reconstruction with DUST3R, and LiDAR depth completion, exceeding current solutions in both numerical performance and visual quality.
+  
+</details>
 
 
 ## 2. Useful Datasets
