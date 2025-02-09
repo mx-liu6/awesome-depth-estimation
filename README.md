@@ -147,40 +147,40 @@ Published: ICCV 2023
 
 Here is a list of useful datasets for depth estimation:
 
-- **NYU Depth Dataset V2**  
+### **NYU Depth Dataset V2**  
 Authors: Nathan Silberman, Pushmeet Kohli, Derek Hoiem, Rob Fergus  
 Published: ECCV 2012
 
 **[Paper](https://cs.nyu.edu/~fergus/datasets/indoor_seg_support.pdf)** | **[Project](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html)**
 
-- **ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
+### **ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
 Authors: Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Nießner  
 
 **[Paper](http://www.scan-net.org/)** | **[Project](https://github.com/ScanNet/ScanNet)** | **[Code](https://github.com/ScanNet/ScanNet)**
 
-- **SUN3D: A Database of Big Spaces Reconstructed using SfM and Object Labels**  
+### **SUN3D: A Database of Big Spaces Reconstructed using SfM and Object Labels**  
 Authors: Jianxiong Xiao, Andrew Owens, Antonio Torralba  
 Published: Proceedings of 14th IEEE International Conference on Computer Vision (ICCV2013)
 
 **[Paper](https://vision.princeton.edu/projects/2013/SUN3D/paper.pdf)** | **[Project](https://sun3d.cs.princeton.edu/)**
 
-- **KITTI**  
+### **KITTI**  
 Authors: Andreas Geiger, Philip Lenz, Christoph Stiller, Raquel Urtasun  
 
 **[Project](https://www.cvlibs.net/datasets/kitti/)**
 
-- **DDAD-Dense Depth for Autonomous Driving**  
+### **DDAD-Dense Depth for Autonomous Driving**  
 Authors: Vitor Guizilini, Rares Ambrus, Sudeep Pillai, Allan Raventos, Adrien Gaidon  
 Published: CVPR 2020  
 
 **[Project](https://github.com/TRI-ML/DDAD)**
 
-- **DIODE: A Dense Indoor and Outdoor DEpth Dataset**  
+### **DIODE: A Dense Indoor and Outdoor DEpth Dataset**  
 Authors: Igor Vasiljevic, Nick Kolkin, Shanyi Zhang, Ruotian Luo, Haochen Wang, Falcon Z. Dai, Andrea F. Daniele, Mohammadreza Mostajabi, Steven Basart, Matthew R. Walter, Gregory Shakhnarovich  
 
 **[Project](https://diode-dataset.org/)** | **[Paper](https://arxiv.org/pdf/1908.00463)** | **[Code](https://github.com/diode-dataset/diode-devkit)**
 
-- **Hypersim**  
+### **Hypersim**  
 Authors: Mike Roberts, Jason Ramapuram, Anurag Ranjan, Atulit Kumar, Miguel Angel Bautista, Nathan Paczan, Russ Webb, Joshua M. Susskind  
 Published: ICCV 2021
 
