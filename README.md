@@ -3,26 +3,26 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## Table of Contents  
 
-1. [Selected Papers on Depth Estimation](#selected-papers-on-depth-estimation)  
-    1.1 [Survey](#survey)  
-    1.2 [Monocular Depth Estimation](#monocular-depth-estimation)  
-        - [Relative Depth](#relative-depth)  
-        - [Metric Depth](#metric-depth)  
-        - [Depth Completion](#depth-completion)  
-    1.3 [Others (Fisheye, 360-degree)](#others-fisheye-360-degree)  
-2. [Useful Datasets](#useful-datasets)  
-3. [Evaluation Metrics](#evaluation-metrics)  
+[Selected Papers on Depth Estimation](#selected-papers-on-depth-estimation)  
+1. [Survey](#survey)  
+2. [Monocular Depth Estimation](#monocular-depth-estimation)  
+    - [Relative Depth](#relative-depth)  
+    - [Metric Depth](#metric-depth)  
+    - [Depth Completion](#depth-completion)  
+3. [Others (Fisheye, 360-degree)](#others-fisheye-360-degree)  
+[Useful Datasets](#useful-datasets)  
+[Evaluation Metrics](#evaluation-metrics)  
 
 ---
 
-## 1. Selected Papers on Depth Estimation
+## Selected Papers on Depth Estimation
 
-### 1.1 Survey
+### 1. Survey
 
 
 ---
 
-### 1.2 Monocular Depth Estimation
+### 2. Monocular Depth Estimation
 
 #### Metric Depth
 
@@ -43,6 +43,7 @@ Published: CVPR 2024
 
 </details>
 
+
 - **DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**  
 
 Authors: Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan  
@@ -59,6 +60,7 @@ Published: arXiv 2024
   Estimating video depth in open-world scenarios is challenging due to the diversity of videos in appearance, content motion, camera movement, and length. We present DepthCrafter, an innovative method for generating temporally consistent long depth sequences with intricate details for open-world videos, without requiring any supplementary information such as camera poses or optical flow. The generalization ability to open-world videos is achieved by training the video-to-depth model from a pretrained image-to-video diffusion model, through our meticulously designed three-stage training strategy. Our training approach enables the model to generate depth sequences with variable lengths at one time, up to 110 frames, and harvest both precise depth details and rich content diversity from realistic and synthetic datasets. We also propose an inference strategy that can process extremely long videos through segment-wise estimation and seamless stitching. Comprehensive evaluations on multiple datasets reveal that DepthCrafter achieves state-of-the-art performance in open-world video depth estimation under zero-shot settings. Furthermore, DepthCrafter facilitates various downstream applications, including depth-based visual effects and conditional video generation.
   
 </details>
+
 
 - **DepthLab: From Partial to Complete**  
 
@@ -77,6 +79,7 @@ Published: arXiv 2024
   
 </details>
 
+
 - **DUSt3R: Geometric 3D Vision Made Easy**  
 
 Authors: Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, Jerome Revaud  
@@ -93,6 +96,7 @@ Published: CVPR 2024
   Multi-view stereo reconstruction (MVS) in the wild requires to first estimate the camera parameters e.g. intrinsic and extrinsic parameters. These are usually tedious and cumbersome to obtain, yet they are mandatory to triangulate corresponding pixels in 3D space, which is the core of all best performing MVS algorithms. In this work, we take an opposite stance and introduce DUSt3R, a radically novel paradigm for Dense and Unconstrained Stereo 3D Reconstruction of arbitrary image collections, i.e. operating without prior information about camera calibration nor viewpoint poses. We cast the pairwise reconstruction problem as a regression of pointmaps, relaxing the hard constraints of usual projective camera models. We show that this formulation smoothly unifies the monocular and binocular reconstruction cases. In the case where more than two images are provided, we further propose a simple yet effective global alignment strategy that expresses all pairwise pointmaps in a common reference frame. We base our network architecture on standard Transformer encoders and decoders, allowing us to leverage powerful pretrained models. Our formulation directly provides a 3D model of the scene as well as depth information, but interestingly, we can seamlessly recover from it, pixel matches, relative and absolute cameras. Exhaustive experiments on all these tasks showcase that the proposed DUSt3R can unify various 3D vision tasks and set new SoTAs on monocular/multi-view depth estimation as well as relative pose estimation. In summary, DUSt3R makes many geometric 3D vision tasks easy.
   
 </details>
+
 
 - **Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation**  
 
@@ -136,7 +140,7 @@ Published: ICCV 2023
 
 ---
 
-### 1.3 Others (Fisheye, 360-degree)
+### 3 Others (Fisheye, 360-degree)
 
 
 
