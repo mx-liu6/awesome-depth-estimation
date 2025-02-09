@@ -2,8 +2,7 @@
 A curated list of papers and resources focused on Depth Estimation. 
 
 ## Table of Contents  
-
-[Selected Papers on Depth Estimation](#selected-papers-on-depth-estimation)  
+ 
 1. [Survey](#survey)  
 2. [Monocular Depth Estimation](#monocular-depth-estimation)  
     - [Relative Depth](#relative-depth)  
@@ -14,8 +13,6 @@ A curated list of papers and resources focused on Depth Estimation.
 [Evaluation Metrics](#evaluation-metrics)  
 
 ---
-
-## Selected Papers on Depth Estimation
 
 ## 1. Survey
 
