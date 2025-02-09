@@ -17,16 +17,16 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## Selected Papers on Depth Estimation
 
-### 1. Survey
+## 1. Survey
 
 
 ---
 
-### 2. Monocular Depth Estimation
+## 2. Monocular Depth Estimation
 
-#### Metric Depth
+### Metric Depth
 
-- **UniDepth: Universal Monocular Metric Depth Estimation**  
+#### **UniDepth: Universal Monocular Metric Depth Estimation**  
 
 Authors: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu  
 
@@ -44,7 +44,7 @@ Published: CVPR 2024
 </details>
 
 
-- **DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**  
+#### **DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**  
 
 Authors: Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan  
 
@@ -62,7 +62,7 @@ Published: arXiv 2024
 </details>
 
 
-- **DepthLab: From Partial to Complete**  
+#### **DepthLab: From Partial to Complete**  
 
 Authors: Zhiheng Liu, Ka Leong Cheng, Qiuyu Wang, Shuzhe Wang, Hao Ouyang, Bin Tan, Kai Zhu, Yujun Shen, Qifeng Chen, Ping Luo  
 
@@ -80,7 +80,7 @@ Published: arXiv 2024
 </details>
 
 
-- **DUSt3R: Geometric 3D Vision Made Easy**  
+#### **DUSt3R: Geometric 3D Vision Made Easy**  
 
 Authors: Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, Jerome Revaud  
 
@@ -98,7 +98,7 @@ Published: CVPR 2024
 </details>
 
 
-- **Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation**  
+#### **Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation**  
 
 Authors: Mu Hu, Wei Yin, Chi Zhang, Zhipeng Cai, Xiaoxiao Long, Hao Chen, Kaixuan Wang, Gang Yu, Chunhua Shen, Shaojie Shen  
 
@@ -115,7 +115,7 @@ Published: TPAMI 2024
 </details>
 
 
-- **Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image**  
+#### **Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image**  
 
 Authors: Wei Yin, Chi Zhang, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen  
 
@@ -132,15 +132,15 @@ Published: ICCV 2023
 </details>
 
 
-#### Relative Depth
+### Relative Depth
 
 
 
-#### Depth Completion
+### Depth Completion
 
 ---
 
-### 3 Others (Fisheye, 360-degree)
+## 3 Others (Fisheye, 360-degree)
 
 
 
