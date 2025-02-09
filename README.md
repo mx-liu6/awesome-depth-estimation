@@ -17,11 +17,13 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 1. Survey
 
-#### **Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey**  
+#### **📄 Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey**  
 
 Authors: Uchitha Rajapaksha, Ferdous Sohel, Hamid Laga, Dean Diepeveen, Mohammed Bennamoun
 
-Published: arXiv 2024 **[Paper](https://arxiv.org/pdf/2406.19675)**  
+Published: arXiv 2024 
+
+**[Paper](https://arxiv.org/pdf/2406.19675)**  
 
 ***Keywords***: *Depth Estimation*, *Monocular Images*, *Monocular Videos*, *Deep Learning*, *Survey*
 
@@ -33,11 +35,13 @@ Published: arXiv 2024 **[Paper](https://arxiv.org/pdf/2406.19675)**
 </details>
 
 
-#### **Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation**  
+#### **📄 Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation**  
 
 Authors: Jinwoo Bae, Sungho Moon, Sunghoon Im
 
-Published: 2022 **[Paper](https://arxiv.org/pdf/2205.11083)**  
+Published: 2022 
+
+**[Paper](https://arxiv.org/pdf/2205.11083)**  
 
 ***Keywords***: *Self-Supervised Learning*, *Monocular Depth Estimation*, *Generalization*, *CNN*, *Transformers*, *Hybrid Models*, *MonoFormer*
 
@@ -49,11 +53,13 @@ Published: 2022 **[Paper](https://arxiv.org/pdf/2205.11083)**
 </details>
 
 
-#### **Monocular Depth Estimation Using Deep Learning: A Review**  
+#### **📄 Monocular Depth Estimation Using Deep Learning: A Review**  
 
 Authors: Armin Masoumian, Hatem A. Rashwan, Julián Cristiano, M. Salman Asif, Domenec Puig
 
-Published: 2022 **[Paper](https://www.mdpi.com/1424-8220/22/14/5353)**  
+Published: 2022 
+
+**[Paper](https://www.mdpi.com/1424-8220/22/14/5353)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Robotics*, *Autonomous Vehicles*, *Augmented Reality*
 
@@ -65,11 +71,13 @@ Published: 2022 **[Paper](https://www.mdpi.com/1424-8220/22/14/5353)**
 </details>
 
 
-#### **Deep Learning for Monocular Depth Estimation: A Review**  
+#### **📄 Deep Learning for Monocular Depth Estimation: A Review**  
 
 Authors: Yue Ming, Xuyang Meng, Chunxiao Fan, Hui Yu
 
-Published: 2021 **[Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf)**  
+Published: 2021 
+
+**[Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Augmented Reality*, *Autonomous Driving*, *Target Tracking*
 
@@ -81,11 +89,13 @@ Published: 2021 **[Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learnin
 </details>
 
 
-#### **Monocular Depth Estimation Based On Deep Learning: An Overview**  
+#### **📄 Monocular Depth Estimation Based On Deep Learning: An Overview**  
 
 Authors: Chaoqiang Zhao, Qiyu Sun, Chongzhen Zhang, Yang Tang, Feng Qian
 
-Published: arXiv 2020 **[Paper](https://arxiv.org/pdf/2003.06620)**  
+Published: arXiv 2020 
+
+**[Paper](https://arxiv.org/pdf/2003.06620)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Single Image Depth*, *End-to-End Networks*, *Supervised/Unsupervised/Semi-supervised Learning*
 
@@ -97,11 +107,13 @@ Published: arXiv 2020 **[Paper](https://arxiv.org/pdf/2003.06620)**
 </details>
 
 
-#### **Monocular Depth Estimation: A Survey**  
+#### **📄 Monocular Depth Estimation: A Survey**  
 
 Authors: Amlaan Bhoi
 
-Published: 2019 **[Paper](https://arxiv.org/pdf/1901.09402)**  
+Published: 2019 
+
+**[Paper](https://arxiv.org/pdf/1901.09402)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Supervised Learning*, *Weakly-supervised Learning*, *Unsupervised Learning*, *Scene Reconstruction*
 
@@ -119,7 +131,7 @@ Published: 2019 **[Paper](https://arxiv.org/pdf/1901.09402)**
 
 ### 2.1 Metric Depth
 
-#### **UniDepth: Universal Monocular Metric Depth Estimation**  
+#### **📄 UniDepth: Universal Monocular Metric Depth Estimation**  
 
 Authors: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu  
 
@@ -139,7 +151,7 @@ Published: CVPR 2024
 
 
 
-#### **DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**  
+#### **📄 DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**  
 
 Authors: Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan  
 
@@ -159,7 +171,7 @@ Published: arXiv 2024
 
 
 
-#### **DepthLab: From Partial to Complete**  
+#### **📄 DepthLab: From Partial to Complete**  
 
 Authors: Zhiheng Liu, Ka Leong Cheng, Qiuyu Wang, Shuzhe Wang, Hao Ouyang, Bin Tan, Kai Zhu, Yujun Shen, Qifeng Chen, Ping Luo  
 
@@ -179,7 +191,7 @@ Published: arXiv 2024
 
 
 
-#### **DUSt3R: Geometric 3D Vision Made Easy**  
+#### **📄 DUSt3R: Geometric 3D Vision Made Easy**  
 
 Authors: Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, Jerome Revaud  
 
@@ -199,7 +211,7 @@ Published: CVPR 2024
 
 
 
-#### **Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation**  
+#### **📄 Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation**  
 
 Authors: Mu Hu, Wei Yin, Chi Zhang, Zhipeng Cai, Xiaoxiao Long, Hao Chen, Kaixuan Wang, Gang Yu, Chunhua Shen, Shaojie Shen  
 
@@ -219,7 +231,7 @@ Published: TPAMI 2024
 
 
 
-#### **Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image**  
+#### **📄 Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image**  
 
 Authors: Wei Yin, Chi Zhang, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen  
 
@@ -255,40 +267,40 @@ Published: ICCV 2023
 
 Here is a list of useful datasets for depth estimation:
 
-### **NYU Depth Dataset V2**  
+### **📦 NYU Depth Dataset V2**  
 Authors: Nathan Silberman, Pushmeet Kohli, Derek Hoiem, Rob Fergus  
 Published: ECCV 2012
 
 **[Paper](https://cs.nyu.edu/~fergus/datasets/indoor_seg_support.pdf)** | **[Project](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html)**
 
-### **ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
+### **📦 ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes**  
 Authors: Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Nießner  
 
 **[Paper](http://www.scan-net.org/)** | **[Project](https://github.com/ScanNet/ScanNet)** | **[Code](https://github.com/ScanNet/ScanNet)**
 
-### **SUN3D: A Database of Big Spaces Reconstructed using SfM and Object Labels**  
+### **📦 SUN3D: A Database of Big Spaces Reconstructed using SfM and Object Labels**  
 Authors: Jianxiong Xiao, Andrew Owens, Antonio Torralba  
 Published: Proceedings of 14th IEEE International Conference on Computer Vision (ICCV2013)
 
 **[Paper](https://vision.princeton.edu/projects/2013/SUN3D/paper.pdf)** | **[Project](https://sun3d.cs.princeton.edu/)**
 
-### **KITTI**  
+### **📦 KITTI**  
 Authors: Andreas Geiger, Philip Lenz, Christoph Stiller, Raquel Urtasun  
 
 **[Project](https://www.cvlibs.net/datasets/kitti/)**
 
-### **DDAD-Dense Depth for Autonomous Driving**  
+### **📦 DDAD-Dense Depth for Autonomous Driving**  
 Authors: Vitor Guizilini, Rares Ambrus, Sudeep Pillai, Allan Raventos, Adrien Gaidon  
 Published: CVPR 2020  
 
 **[Project](https://github.com/TRI-ML/DDAD)**
 
-### **DIODE: A Dense Indoor and Outdoor DEpth Dataset**  
+### **📦 DIODE: A Dense Indoor and Outdoor DEpth Dataset**  
 Authors: Igor Vasiljevic, Nick Kolkin, Shanyi Zhang, Ruotian Luo, Haochen Wang, Falcon Z. Dai, Andrea F. Daniele, Mohammadreza Mostajabi, Steven Basart, Matthew R. Walter, Gregory Shakhnarovich  
 
 **[Project](https://diode-dataset.org/)** | **[Paper](https://arxiv.org/pdf/1908.00463)** | **[Code](https://github.com/diode-dataset/diode-devkit)**
 
-### **Hypersim**  
+### **📦 Hypersim**  
 Authors: Mike Roberts, Jason Ramapuram, Anurag Ranjan, Atulit Kumar, Miguel Angel Bautista, Nathan Paczan, Russ Webb, Joshua M. Susskind  
 Published: ICCV 2021
 
