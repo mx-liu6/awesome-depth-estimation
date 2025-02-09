@@ -17,6 +17,113 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 1. Survey
 
+#### **Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey**  
+
+Authors: Uchitha Rajapaksha, Ferdous Sohel, Hamid Laga, Dean Diepeveen, Mohammed Bennamoun
+
+Published: arXiv 2024
+
+**[Paper](https://arxiv.org/pdf/2406.19675)**  
+
+***Keywords***: *Depth Estimation*, *Monocular Images*, *Monocular Videos*, *Deep Learning*, *Survey*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Estimating depth from single RGB images and videos is of widespread interest due to its applications in many areas, including autonomous driving, 3D reconstruction, digital entertainment, and robotics. More than 500 deep learning-based papers have been published in the past 10 years, which indicates the growing interest in the task. This paper presents a comprehensive survey of the existing deep learning-based methods, the challenges they address, and how they have evolved in their architecture and supervision methods. It provides a taxonomy for classifying the current work based on their input and output modalities, network architectures, and learning methods. It also discusses the major milestones in the history of monocular depth estimation, and different pipelines, datasets, and evaluation metrics used in existing methods.
+  
+</details>
+
+
+#### **Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation**  
+
+Authors: Jinwoo Bae, Sungho Moon, Sunghoon Im
+
+Published: 2022
+
+**[Paper](https://arxiv.org/pdf/2205.11083)**  
+
+***Keywords***: *Self-Supervised Learning*, *Monocular Depth Estimation*, *Generalization*, *CNN*, *Transformers*, *Hybrid Models*, *MonoFormer*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Self-supervised monocular depth estimation has been widely studied recently. Most of the work has focused on improving performance on benchmark datasets, such as KITTI, but has offered a few experiments on generalization performance. In this paper, we investigate the backbone networks (e.g. CNNs, Transformers, and CNN-Transformer hybrid models) toward the generalization of monocular depth estimation. We first evaluate state-of-the-art models on diverse public datasets, which have never been seen during the network training. Next, we investigate the effects of texture-biased and shape-biased representations using the various texture-shifted datasets that we generated. We observe that Transformers exhibit a strong shape bias and CNNs do a strong texture-bias. We also find that shape-biased models show better generalization performance for monocular depth estimation compared to texture-biased models. Based on these observations, we newly design a CNN-Transformer hybrid network with a multi-level adaptive feature fusion module, called MonoFormer. The design intuition behind MonoFormer is to increase shape bias by employing Transformers while compensating for the weak locality bias of Transformers by adaptively fusing multi-level representations. Extensive experiments show that the proposed method achieves state-of-the-art performance with various public datasets. Our method also shows the best generalization ability among the competitive methods.
+  
+</details>
+
+
+#### **Monocular Depth Estimation Using Deep Learning: A Review**  
+
+Authors: Armin Masoumian, Hatem A. Rashwan, Julián Cristiano, M. Salman Asif, Domenec Puig
+
+Published: 2022
+
+**[Paper](https://www.mdpi.com/1424-8220/22/14/5353)**  
+
+***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Robotics*, *Autonomous Vehicles*, *Augmented Reality*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  In current decades, significant advancements in robotics engineering and autonomous vehicles have improved the requirement for precise depth measurements. Depth estimation (DE) is a traditional task in computer vision that can be appropriately predicted by applying numerous procedures. This task is vital in disparate applications such as augmented reality and target tracking. Conventional monocular DE (MDE) procedures are based on depth cues for depth prediction. Various deep learning techniques have demonstrated their potential applications in managing and supporting the traditional ill-posed problem. The principal purpose of this paper is to represent a state-of-the-art review of the current developments in MDE based on deep learning techniques. For this goal, this paper tries to highlight the critical points of the state-of-the-art works on MDE from disparate aspects. These aspects include input data shapes and training manners such as supervised, semi-supervised, and unsupervised learning approaches in combination with applying different datasets and evaluation indicators. At last, limitations regarding the accuracy of the DL-based MDE models, computational time requirements, real-time inference, transferability, input images shape and domain adaptation, and generalization are discussed to open new directions for future research.
+  
+</details>
+
+
+#### **Deep Learning for Monocular Depth Estimation: A Review**  
+
+Authors: Yue Ming, Xuyang Meng, Chunxiao Fan, Hui Yu
+
+Published: 2021
+
+**[Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf)**  
+
+***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Augmented Reality*, *Autonomous Driving*, *Target Tracking*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Depth estimation is a classic task in computer vision, which is of great significance for many applications such as augmented reality, target tracking, and autonomous driving. Traditional monocular depth estimation methods are based on depth cues for depth prediction with strict requirements, e.g., shape-from-focus/defocus methods require low depth of field on the scenes and images. Recently, a large body of deep learning methods has been proposed and shown great promise in handling the traditional ill-posed problem. This paper aims to review the state-of-the-art development in deep learning-based monocular depth estimation. We give an overview of published papers between 2014 and 2020 in terms of training manners and task types. We firstly summarize the deep learning models for monocular depth estimation. Secondly, we categorize various deep learning-based methods in monocular depth estimation. Thirdly, we introduce the publicly available dataset and the evaluation metrics. And we also analyze the properties of these methods and compare their performance. Finally, we highlight the challenges in order to inform the future research directions.
+  
+</details>
+
+
+#### **Monocular Depth Estimation Based On Deep Learning: An Overview**  
+
+Authors: Chaoqiang Zhao, Qiyu Sun, Chongzhen Zhang, Yang Tang, Feng Qian
+
+Published: arXiv 2020
+
+**[Paper](https://arxiv.org/pdf/2003.06620)**  
+
+***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Single Image Depth*, *End-to-End Networks*, *Supervised/Unsupervised/Semi-supervised Learning*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Depth information is important for autonomous systems to perceive environments and estimate their own state. Traditional depth estimation methods, like structure from motion and stereo vision matching, are built on feature correspondences of multiple viewpoints. Meanwhile, the predicted depth maps are sparse. Inferring depth information from a single image (monocular depth estimation) is an ill-posed problem. With the rapid development of deep neural networks, monocular depth estimation based on deep learning has been widely studied recently and achieved promising performance in accuracy. Meanwhile, dense depth maps are estimated from single images by deep neural networks in an end-to-end manner. In order to improve the accuracy of depth estimation, different kinds of network frameworks, loss functions, and training strategies are proposed subsequently. Therefore, we survey the current monocular depth estimation methods based on deep learning in this review. Initially, we conclude several widely used datasets and evaluation indicators in deep learning-based depth estimation. Furthermore, we review some representative existing methods according to different training manners: supervised, unsupervised, and semi-supervised. Finally, we discuss the challenges and provide some ideas for future research in monocular depth estimation.
+  
+</details>
+
+
+#### **Monocular Depth Estimation: A Survey**  
+
+Authors: Amlaan Bhoi
+
+Published: 2019
+
+**[Paper](https://arxiv.org/pdf/1901.09402)**  
+
+***Keywords***: *Monocular Depth Estimation*, *Supervised Learning*, *Weakly-supervised Learning*, *Unsupervised Learning*, *Scene Reconstruction*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Monocular depth estimation is often described as an ill-posed and inherently ambiguous problem. Estimating depth from 2D images is a crucial step in scene reconstruction, 3D object recognition, segmentation, and detection. The problem can be framed as: given a single RGB image as input, predict a dense depth map for each pixel. This problem is worsened by the fact that most scenes have large texture and structural variations, object occlusions, and rich geometric detailing. All these factors contribute to difficulty in accurate depth estimation. In this paper, we review five papers that attempt to solve the depth estimation problem with various techniques including supervised, weakly-supervised, and unsupervised learning techniques. We then compare these papers and understand the improvements made over one another. Finally, we explore potential improvements that can aid to better solve this problem.
+  
+</details>
+
 
 ---
 
