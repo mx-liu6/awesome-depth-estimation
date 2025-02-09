@@ -21,9 +21,7 @@ A curated list of papers and resources focused on Depth Estimation.
 
 Authors: Uchitha Rajapaksha, Ferdous Sohel, Hamid Laga, Dean Diepeveen, Mohammed Bennamoun
 
-Published: arXiv 2024
-
-**[Paper](https://arxiv.org/pdf/2406.19675)**  
+Published: arXiv 2024 **[Paper](https://arxiv.org/pdf/2406.19675)**  
 
 ***Keywords***: *Depth Estimation*, *Monocular Images*, *Monocular Videos*, *Deep Learning*, *Survey*
 
@@ -39,9 +37,7 @@ Published: arXiv 2024
 
 Authors: Jinwoo Bae, Sungho Moon, Sunghoon Im
 
-Published: 2022
-
-**[Paper](https://arxiv.org/pdf/2205.11083)**  
+Published: 2022 **[Paper](https://arxiv.org/pdf/2205.11083)**  
 
 ***Keywords***: *Self-Supervised Learning*, *Monocular Depth Estimation*, *Generalization*, *CNN*, *Transformers*, *Hybrid Models*, *MonoFormer*
 
@@ -57,9 +53,7 @@ Published: 2022
 
 Authors: Armin Masoumian, Hatem A. Rashwan, Julián Cristiano, M. Salman Asif, Domenec Puig
 
-Published: 2022
-
-**[Paper](https://www.mdpi.com/1424-8220/22/14/5353)**  
+Published: 2022 **[Paper](https://www.mdpi.com/1424-8220/22/14/5353)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Robotics*, *Autonomous Vehicles*, *Augmented Reality*
 
@@ -75,9 +69,7 @@ Published: 2022
 
 Authors: Yue Ming, Xuyang Meng, Chunxiao Fan, Hui Yu
 
-Published: 2021
-
-**[Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf)**  
+Published: 2021 **[Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Augmented Reality*, *Autonomous Driving*, *Target Tracking*
 
@@ -93,9 +85,7 @@ Published: 2021
 
 Authors: Chaoqiang Zhao, Qiyu Sun, Chongzhen Zhang, Yang Tang, Feng Qian
 
-Published: arXiv 2020
-
-**[Paper](https://arxiv.org/pdf/2003.06620)**  
+Published: arXiv 2020 **[Paper](https://arxiv.org/pdf/2003.06620)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Deep Learning*, *Single Image Depth*, *End-to-End Networks*, *Supervised/Unsupervised/Semi-supervised Learning*
 
@@ -111,9 +101,7 @@ Published: arXiv 2020
 
 Authors: Amlaan Bhoi
 
-Published: 2019
-
-**[Paper](https://arxiv.org/pdf/1901.09402)**  
+Published: 2019 **[Paper](https://arxiv.org/pdf/1901.09402)**  
 
 ***Keywords***: *Monocular Depth Estimation*, *Supervised Learning*, *Weakly-supervised Learning*, *Unsupervised Learning*, *Scene Reconstruction*
 
