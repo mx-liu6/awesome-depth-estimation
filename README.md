@@ -2,13 +2,13 @@
 A curated list of papers and resources focused on Depth Estimation. 
 
 ## Table of Contents  
- 
-1. [Survey](#survey)  
-2. [Monocular Depth Estimation](#monocular-depth-estimation)  
-    - [Relative Depth](#relative-depth)  
-    - [Metric Depth](#metric-depth)  
-    - [Depth Completion](#depth-completion)  
-3. [Others (Fisheye, 360-degree)](#others-fisheye-360-degree)  
+
+1. [Survey](#1-survey)  
+2. [Monocular Depth Estimation](#2-monocular-depth-estimation)  
+    - [Relative Depth](#21-relative-depth)  
+    - [Metric Depth](#22-metric-depth)  
+    - [Depth Completion](#23-depth-completion)  
+3. [Others (Fisheye, 360-degree)](#3-others-fisheye-360-degree)  
 [Useful Datasets](#useful-datasets)  
 [Evaluation Metrics](#evaluation-metrics)  
 
@@ -138,7 +138,6 @@ Published: ICCV 2023
 ---
 
 ## 3 Others (Fisheye, 360-degree)
-
 
 
 ---
