@@ -21,7 +21,7 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 2. Monocular Depth Estimation
 
-### Metric Depth
+### 2.1 Metric Depth
 
 #### **UniDepth: Universal Monocular Metric Depth Estimation**  
 
@@ -129,11 +129,11 @@ Published: ICCV 2023
 </details>
 
 
-### Relative Depth
+### 2.2 Relative Depth
 
 
 
-### Depth Completion
+### 2.3 Depth Completion
 
 ---
 
@@ -143,7 +143,7 @@ Published: ICCV 2023
 
 ---
 
-## 2. Useful Datasets
+## Useful Datasets
 
 Here is a list of useful datasets for depth estimation:
 
@@ -190,7 +190,7 @@ Published: ICCV 2021
 
 ---
 
-## 3. Evaluation Metrics
+## Evaluation Metrics
 
 To evaluate depth estimation models, the following metrics are commonly used:
 
