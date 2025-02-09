@@ -17,6 +17,24 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 1. Survey
 
+#### **📄 A Systematic Literature Review on Deep Learning-based Depth Estimation in Computer Vision**
+
+Authors: Ali Rohana, Md Junayed Hasana, Andrei Petrovskia
+
+Published: arXiv 2025
+
+**[Paper](https://arxiv.org/pdf/2501.05147)**
+
+***Keywords***: *Deep Learning (DL)*, *Artificial Intelligence (AI)*, *Depth Estimation*, *Monocular Depth Estimation*, *Stereo Depth Estimation*, *Multi-view*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Depth estimation (DE) provides spatial information about a scene and enables tasks such as 3D reconstruction, object detection, and scene understanding. Recently, there has been an increasing interest in using deep learning (DL)-based methods for DE. Traditional techniques rely on handcrafted features that often struggle to generalize to diverse scenes and require extensive manual tuning. However, DL models for DE can automatically extract relevant features from input data, adapt to various scene conditions, and generalize well to unseen environments. Numerous DL-based methods have been developed, making it necessary to survey and synthesize the state-of-the-art (SOTA). Previous reviews on DE have mainly focused on either monocular or stereo-based techniques, rather than comprehensively reviewing DE. Furthermore, to the best of our knowledge, there is no systematic literature review (SLR) that comprehensively focuses on DE. Therefore, this SLR study is being conducted. Initially, electronic databases were searched for relevant publications, resulting in 1284 publications. Using defined exclusion and quality criteria, 128 publications were shortlisted and further filtered to select 59 high-quality primary studies. These studies were analyzed to extract data and answer defined research questions. Based on the results, DL methods were developed for mainly three different types of DE: monocular, stereo, and multi-view. 20 publicly available datasets were used to train, test, and evaluate DL models for DE, with KITTI, NYU Depth V2, and Make 3D being the most used datasets. 29 evaluation metrics were used to assess the performance of DE. 35 base models were reported in the primary studies, and the top five most-used base models were ResNet-50, ResNet-18, ResNet-101, U-Net, and VGG-16. Finally, the lack of ground truth data was among the most significant challenges reported by primary studies.
+  
+</details>
+
+
 #### **📄 Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey**  
 
 Authors: Uchitha Rajapaksha, Ferdous Sohel, Hamid Laga, Dean Diepeveen, Mohammed Bennamoun
@@ -31,6 +49,24 @@ Published: arXiv 2024
   <summary>Click to view Abstract</summary>
 
   Estimating depth from single RGB images and videos is of widespread interest due to its applications in many areas, including autonomous driving, 3D reconstruction, digital entertainment, and robotics. More than 500 deep learning-based papers have been published in the past 10 years, which indicates the growing interest in the task. This paper presents a comprehensive survey of the existing deep learning-based methods, the challenges they address, and how they have evolved in their architecture and supervision methods. It provides a taxonomy for classifying the current work based on their input and output modalities, network architectures, and learning methods. It also discusses the major milestones in the history of monocular depth estimation, and different pipelines, datasets, and evaluation metrics used in existing methods.
+  
+</details>
+
+
+#### **📄 A Study on the Generality of Neural Network Structures for Monocular Depth Estimation**
+
+Authors: Jinwoo Bae, Kyumin Hwang, Sunghoon Im
+
+Published: TPAMI 2023
+
+**[Paper](https://arxiv.org/pdf/2301.03169)**
+
+***Keywords***: *Monocular Depth Estimation*, *Generalization*, *CNN*, *Transformer*, *Out-of-Distribution*, *Ablation Study*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Monocular depth estimation has been widely studied, and significant improvements in performance have been recently reported. However, most previous works are evaluated on a few benchmark datasets, such as KITTI datasets, and none of the works provide an in-depth analysis of the generalization performance of monocular depth estimation. In this paper, we deeply investigate the various backbone networks (e.g. CNN and Transformer models) toward the generalization of monocular depth estimation. First, we evaluate state-of-the-art models on both in-distribution and out-of-distribution datasets, which have never been seen during network training. Then, we investigate the internal properties of the representations from the intermediate layers of CNN-/Transformer-based models using synthetic texture-shifted datasets. Through extensive experiments, we observe that the Transformers exhibit a strong shape-bias rather than CNNs, which have a strong texture-bias. We also discover that texture-biased models exhibit worse generalization performance for monocular depth estimation than shape-biased models. We demonstrate that similar aspects are observed in real-world driving datasets captured under diverse environments. Lastly, we conduct a dense ablation study with various backbone networks which are utilized in modern strategies. The experiments demonstrate that the intrinsic locality of the CNNs and the self-attention of the Transformers induce texture-bias and shape-bias, respectively.
   
 </details>
 
@@ -70,6 +106,23 @@ Published: 2022
   
 </details>
 
+#### **📄 Outdoor Monocular Depth Estimation: A Research Review**
+
+Authors: Pulkit Vyas, Chirag Saxena, Anwesh Badapanda, Anurag Goswami
+
+Published: arXiv 2022
+
+**[Paper](https://arxiv.org/pdf/2205.01399)**
+
+***Keywords***: *Monocular Depth Estimation*, *Outdoor Dataset*, *Deep Learning*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Depth estimation is an important task, applied in various methods and applications of computer vision. While the traditional methods of estimating depth are based on depth cues and require specific equipment such as stereo cameras and configuring input according to the approach being used, the focus at the current time is on a single source, or monocular, depth estimation. The recent developments in Convolution Neural Networks along with the integration of classical methods in these deep learning approaches have led to a lot of advancements in the depth estimation problem. The problem of outdoor depth estimation, or depth estimation in wild, is a very scarcely researched field of study. In this paper, we give an overview of the available datasets, depth estimation methods, research work, trends, challenges, and opportunities that exist for open research. To our knowledge, no openly available survey work provides a comprehensive collection of outdoor depth estimation techniques and research scope, making our work an essential contribution for people looking to enter this field of study.
+  
+</details>
+
 
 #### **📄 Deep Learning for Monocular Depth Estimation: A Review**  
 
@@ -85,6 +138,24 @@ Published: 2021
   <summary>Click to view Abstract</summary>
 
   Depth estimation is a classic task in computer vision, which is of great significance for many applications such as augmented reality, target tracking, and autonomous driving. Traditional monocular depth estimation methods are based on depth cues for depth prediction with strict requirements, e.g., shape-from-focus/defocus methods require low depth of field on the scenes and images. Recently, a large body of deep learning methods has been proposed and shown great promise in handling the traditional ill-posed problem. This paper aims to review the state-of-the-art development in deep learning-based monocular depth estimation. We give an overview of published papers between 2014 and 2020 in terms of training manners and task types. We firstly summarize the deep learning models for monocular depth estimation. Secondly, we categorize various deep learning-based methods in monocular depth estimation. Thirdly, we introduce the publicly available dataset and the evaluation metrics. And we also analyze the properties of these methods and compare their performance. Finally, we highlight the challenges in order to inform the future research directions.
+  
+</details>
+
+
+#### **📄 A Survey of Depth Estimation Based on Computer Vision**
+
+Authors: Yang Liu, Jie Jiang, Jiahao Sun, Liang Bai, Qi Wang
+
+Published: DSC 2020
+
+**[Paper](https://ieeexplore.ieee.org/document/9172861)**
+
+***Keywords***: *Computer Vision*, *Depth Estimation*, *Pose Estimation*, *3D Reconstruction*
+
+<details>
+  <summary>Click to view Abstract</summary>
+
+  Currently, the method based on computer vision for depth information extraction and depth estimation is widely used. It can get depth information from 2D images, depth maps, or binocular vision images and has been a popular application in the field of artificial intelligence such as depth detection, pose estimation, as well as 3D reconstruction. This paper introduces the basic theory and some implementation methods of depth information acquisition based on computer vision. As well, it briefly summarizes the existing research results and makes an outlook on the future development trend of the field.
   
 </details>
 
