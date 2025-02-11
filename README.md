@@ -48,6 +48,49 @@ arXiv 2020 | [Paper](https://arxiv.org/pdf/2003.06620) | *Keywords: End-to-End L
 2019 | [Paper](https://arxiv.org/pdf/1901.09402) | *Keywords: Ill-posed Problem, Scene Understanding*
 
 
+---
+
+## 2. Monocular Depth Estimation
+
+### 2.1 Metric Depth
+
+#### **📄 UniDepth: Universal Monocular Metric Depth Estimation**
+
+Authors: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu
+
+Published: CVPR 2024
+
+**[Paper](https://arxiv.org/pdf/2403.18913)** | **[Project](https://lpiccinelli-eth.github.io/pub/unidepth/)** | **[Code](https://github.com/lpiccinelli-eth/UniDepth)**
+
+***Keywords***: *Monocular Depth Estimation*, *Transformer based*, *Images Depth*
+
+<details>
+<summary>Click to view Abstract</summary>
+
+Accurate monocular metric depth estimation (MMDE) is crucial to solving downstream tasks in 3D perception and modeling. However, the remarkable accuracy of recent MMDE methods is confined to their training domains. These methods fail to generalize to unseen domains even in the presence of moderate domain gaps, which hinders their practical applicability. We propose a new model, UniDepth, capable of reconstructing metric 3D scenes from solely single images across domains. Departing from the existing MMDE methods, UniDepth directly predicts metric 3D points from the input image at inference time without any additional information, striving for a universal and flexible MMDE solution. In particular, UniDepth implements a self-promptable camera module predicting dense camera representation to condition depth features. Our model exploits a pseudo-spherical output representation, which disentangles camera and depth representations. In addition, we propose a geometric invariance loss that promotes the invariance of camera-prompted depth features. Thorough evaluations on ten datasets in a zero-shot regime consistently demonstrate the superior performance of UniDepth, even when compared with methods directly trained on the testing domains.
+
+</details>
+
+
+
+
+#### **📄 DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**
+
+Authors: Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan
+
+Published: arXiv 2024
+
+**[Paper](https://arxiv.org/pdf/2409.02095)** | **[Project](https://depthcrafter.github.io/)** | **[Code](https://github.com/Tencent/DepthCrafter)**
+
+***Keywords***: *Video Depth Estimation*, *Open-world Videos*, *Consistency*, *Depth Sequences*
+
+<details>
+<summary>Click to view Abstract</summary>
+
+Estimating video depth in open-world scenarios is challenging due to the diversity of videos in appearance, content motion, camera movement, and length. We present DepthCrafter, an innovative method for generating temporally consistent long depth sequences with intricate details for open-world videos, without requiring any supplementary information such as camera poses or optical flow. The generalization ability to open-world videos is achieved by training the video-to-depth model from a pretrained image-to-video diffusion model, through our meticulously designed three-stage training strategy. Our training approach enables the model to generate depth sequences with variable lengths at one time, up to 110 frames, and harvest both precise depth details and rich content diversity from realistic and synthetic datasets. We also propose an inference strategy that can process extremely long videos through segment-wise estimation and seamless stitching. Comprehensive evaluations on multiple datasets reveal that DepthCrafter achieves state-of-the-art performance in open-world video depth estimation under zero-shot settings. Furthermore, DepthCrafter facilitates various downstream applications, including depth-based visual effects and conditional video generation.
+
+</details>
+
 
 
 
