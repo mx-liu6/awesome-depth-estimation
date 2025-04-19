@@ -17,35 +17,35 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 1. Survey
 
-📄 **A Systematic Literature Review on Deep Learning-based Depth Estimation in Computer Vision**  
-arXiv 2025 | [Paper](https://arxiv.org/pdf/2501.05147) | *Keywords: Deep Learning, Depth Estimation, Monocular/Stereo/Multi-view*
++ 📄 **A Systematic Literature Review on Deep Learning-based Depth Estimation in Computer Vision**  
+   arXiv 2025 | [Paper](https://arxiv.org/pdf/2501.05147) | *Keywords: Deep Learning, Depth Estimation, Monocular/Stereo/Multi-view*
 
-📄 **Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey**  
-arXiv 2024 | [Paper](https://arxiv.org/pdf/2406.19675) | *Keywords: Monocular Depth, Video Depth, Deep Learning Survey*
++ 📄 **Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey**  
+   arXiv 2024 | [Paper](https://arxiv.org/pdf/2406.19675) | *Keywords: Monocular Depth, Video Depth, Deep Learning Survey*
 
-📄 **A Study on the Generality of Neural Network Structures for Monocular Depth Estimation**  
-TPAMI 2023 | [Paper](https://arxiv.org/pdf/2301.03169) | *Keywords: CNN/Transformer, Generalization, Shape Bias*
++ 📄 **A Study on the Generality of Neural Network Structures for Monocular Depth Estimation**  
+   TPAMI 2023 | [Paper](https://arxiv.org/pdf/2301.03169) | *Keywords: CNN/Transformer, Generalization, Shape Bias*
 
-📄 **Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation**  
-2022 | [Paper](https://arxiv.org/pdf/2205.11083) | *Keywords: Self-Supervised, Hybrid Models, Generalization*
++ 📄 **Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation**  
+   2022 | [Paper](https://arxiv.org/pdf/2205.11083) | *Keywords: Self-Supervised, Hybrid Models, Generalization*
 
-📄 **Monocular Depth Estimation Using Deep Learning: A Review**  
-2022 | [Paper](https://www.mdpi.com/1424-8220/22/14/5353) | *Keywords: Robotics, Autonomous Vehicles, AR/VR*
++ 📄 **Monocular Depth Estimation Using Deep Learning: A Review**  
+   2022 | [Paper](https://www.mdpi.com/1424-8220/22/14/5353) | *Keywords: Robotics, Autonomous Vehicles, AR/VR*
 
-📄 **Outdoor Monocular Depth Estimation: A Research Review**  
-arXiv 2022 | [Paper](https://arxiv.org/pdf/2205.01399) | *Keywords: Outdoor Scenes, Domain Adaptation*
++ 📄 **Outdoor Monocular Depth Estimation: A Research Review**  
+   arXiv 2022 | [Paper](https://arxiv.org/pdf/2205.01399) | *Keywords: Outdoor Scenes, Domain Adaptation*
 
-📄 **Deep Learning for Monocular Depth Estimation: A Review**  
-2021 | [Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf) | *Keywords: Augmented Reality, 3D Reconstruction*
++ 📄 **Deep Learning for Monocular Depth Estimation: A Review**  
+   2021 | [Paper](https://pure.port.ac.uk/ws/files/26286067/Deep_Learning_for_Monocular_Depth_Estimation_A_Review_pp.pdf) | *Keywords: Augmented Reality, 3D Reconstruction*
 
-📄 **A Survey of Depth Estimation Based on Computer Vision**  
-DSC 2020 | [Paper](https://ieeexplore.ieee.org/document/9172861) | *Keywords: 3D Perception, SLAM*
++ 📄 **A Survey of Depth Estimation Based on Computer Vision**  
+   DSC 2020 | [Paper](https://ieeexplore.ieee.org/document/9172861) | *Keywords: 3D Perception, SLAM*
 
-📄 **Monocular Depth Estimation Based On Deep Learning: An Overview**  
-arXiv 2020 | [Paper](https://arxiv.org/pdf/2003.06620) | *Keywords: End-to-End Learning, Multi-task*
++ 📄 **Monocular Depth Estimation Based On Deep Learning: An Overview**  
+   arXiv 2020 | [Paper](https://arxiv.org/pdf/2003.06620) | *Keywords: End-to-End Learning, Multi-task*
 
-📄 **Monocular Depth Estimation: A Survey**  
-2019 | [Paper](https://arxiv.org/pdf/1901.09402) | *Keywords: Ill-posed Problem, Scene Understanding*
++ 📄 **Monocular Depth Estimation: A Survey**  
+   2019 | [Paper](https://arxiv.org/pdf/1901.09402) | *Keywords: Ill-posed Problem, Scene Understanding*
 
 
 ---
