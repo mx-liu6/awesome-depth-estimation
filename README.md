@@ -56,20 +56,18 @@ arXiv 2020 | [Paper](https://arxiv.org/pdf/2003.06620) | *Keywords: End-to-End L
 
 #### **📄 UniDepth: Universal Monocular Metric Depth Estimation**
 
-Authors: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu
+> Authors: Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, Mattia Segu, Siyuan Li, Luc Van Gool, Fisher Yu
 
-Published: CVPR 2024
+> Published: CVPR 2024
 
-**[Paper](https://arxiv.org/pdf/2403.18913)** | **[Project](https://lpiccinelli-eth.github.io/pub/unidepth/)** | **[Code](https://github.com/lpiccinelli-eth/UniDepth)**
+> **[Paper](https://arxiv.org/pdf/2403.18913)** | **[Project](https://lpiccinelli-eth.github.io/pub/unidepth/)** | **[Code](https://github.com/lpiccinelli-eth/UniDepth)**
 
-***Keywords***: *Monocular Depth Estimation*, *Transformer based*, *Images Depth*
-
-<details>
+> <details>
 <summary>Click to view Abstract</summary>
 
 Accurate monocular metric depth estimation (MMDE) is crucial to solving downstream tasks in 3D perception and modeling. However, the remarkable accuracy of recent MMDE methods is confined to their training domains. These methods fail to generalize to unseen domains even in the presence of moderate domain gaps, which hinders their practical applicability. We propose a new model, UniDepth, capable of reconstructing metric 3D scenes from solely single images across domains. Departing from the existing MMDE methods, UniDepth directly predicts metric 3D points from the input image at inference time without any additional information, striving for a universal and flexible MMDE solution. In particular, UniDepth implements a self-promptable camera module predicting dense camera representation to condition depth features. Our model exploits a pseudo-spherical output representation, which disentangles camera and depth representations. In addition, we propose a geometric invariance loss that promotes the invariance of camera-prompted depth features. Thorough evaluations on ten datasets in a zero-shot regime consistently demonstrate the superior performance of UniDepth, even when compared with methods directly trained on the testing domains.
 
-</details>
+> </details>
 
 
 
@@ -82,7 +80,6 @@ Published: arXiv 2024
 
 **[Paper](https://arxiv.org/pdf/2409.02095)** | **[Project](https://depthcrafter.github.io/)** | **[Code](https://github.com/Tencent/DepthCrafter)**
 
-***Keywords***: *Video Depth Estimation*, *Open-world Videos*, *Consistency*, *Depth Sequences*
 
 <details>
 <summary>Click to view Abstract</summary>
@@ -102,7 +99,6 @@ Published: TPAMI 2024
 
 **[Paper](https://arxiv.org/pdf/2404.15506)** | **[Project](https://jugghm.github.io/Metric3Dv2/)** | **[Code](https://github.com/YvanYin/Metric3D?tab=readme-ov-file)**
 
-***Keywords***: *Zero-shot Metric Depth Estimation*, *Surface Normal Estimation*, *Monocular Geometric Model*, *3D Recovery*
 
 <details>
   <summary>Click to view Abstract</summary>
@@ -122,7 +118,6 @@ Published: ICCV 2023
 
 **[Paper](https://arxiv.org/pdf/2307.10984)** | **[Project](https://jugghm.github.io/Metric3Dv2/)** | **[Code](https://github.com/YvanYin/Metric3D?tab=readme-ov-file)**
 
-***Keywords***: *Monocular Depth Estimation*, *Zero-shot Generalization*, *Metric 3D Prediction*, *Single Image Reconstruction*
 
 <details>
   <summary>Click to view Abstract</summary>
@@ -144,7 +139,6 @@ Published: CVPR 2024
 
 **[Paper](https://arxiv.org/pdf/2312.14132)** | **[Project](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)** | **[Code](https://github.com/naver/dust3r)**
 
-***Keywords***: *Dense 3D Reconstruction*, *Multi-view Stereo*, *Unconstrained Stereo*, *Camera Calibration*
 
 <details>
   <summary>Click to view Abstract</summary>
@@ -165,7 +159,6 @@ Published: arXiv 2024
 
 **[Paper](https://arxiv.org/pdf/2412.18153)** | **[Project](https://johanan528.github.io/depthlab_web/)** | **[Code](https://github.com/ant-research/DepthLab)**
 
-***Keywords***: *Depth Inpainting*, *Image Diffusion Priors*, *3D Scene Inpainting*, *LiDAR Depth Completion*
 
 <details>
   <summary>Click to view Abstract</summary>
