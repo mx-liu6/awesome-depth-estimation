@@ -128,6 +128,24 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ### 2.2 Relative Depth
 
++ ## 📄 VGGT: Visual Geometry Grounded Transformer
++ 
+   Authors: Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny
+  
+   Published: CVPR 2025 oral  
+
+   [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/abs/2503.11651) 
+   [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/facebookresearch/vggt)
+   **[Paper](https://arxiv.org/pdf/2312.14132)** | **[Project](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)** | **[Code](https://github.com/naver/dust3r)**
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   We present VGGT, a feed-forward neural network that directly infers all key 3D attributes of a scene, including camera parameters, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views. This approach is a step forward in 3D computer vision, where models have typically been constrained to and specialized for single tasks. It is also simple and efficient, reconstructing images in under one second, and still outperforming alternatives that require post-processing with visual geometry optimization techniques. The network achieves state-of-the-art results in multiple 3D tasks, including camera parameter estimation, multi-view depth estimation, dense point cloud reconstruction, and 3D point tracking. We also show that using pretrained VGGT as a feature backbone significantly enhances downstream tasks, such as non-rigid point tracking and feed-forward novel view synthesis.
+
+   </details>
+
+
 
 + **📄 DUSt3R: Geometric 3D Vision Made Easy**  
 
