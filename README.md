@@ -135,7 +135,7 @@ A curated list of papers and resources focused on Depth Estimation.
    Published: CVPR 2025 oral  
 
    [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.11651)
-   [![Code](https://img.shields.io/github/stars/naver/dust3r.svg?style=social&label=Star)](https://github.com/facebookresearch/vggt)
+   [![Code](https://img.shields.io/github/stars/facebookresearch/vggt.svg?style=social&label=Star)](https://github.com/facebookresearch/vggt)
 
    <details>
    <summary>Click to view Abstract</summary>
