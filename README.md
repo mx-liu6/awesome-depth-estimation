@@ -128,7 +128,7 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ### 2.2 Relative Depth
 
-+ ## 📄 VGGT: Visual Geometry Grounded Transformer
++ **📄 VGGT: Visual Geometry Grounded Transformer**
 
    Authors: Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny
   
