@@ -49,9 +49,87 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 2. Monocular Depth Estimation
 
-### 2.1 Metric Depth
+### 2.1 
 
++ **📄 GeoDepth: From Point-to-Depth to Plane-to-Depth Modeling for Self-Supervised Monocular Depth Estimation**
 
+   Authors: Haifeng Wu, Shuhang Gu, Lixin Duan, Wen Li
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/CVPR-33131-blue.svg)](https://cvpr.thecvf.com/virtual/2025/poster/33131)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Self-supervised monocular depth estimation has long been treated as a point-wise prediction problem, where the depth of each pixel is usually estimated independently. However, artifacts are often observed in the estimated depth map, e.g., depth values for points located in the same region may jump dramatically. To address this issue, we propose a novel self-supervised monocular depth estimation framework called GeoDepth, where we explore the intrinsic geometric representation in 3D scene for producing accurate and continuous depth map. In particular, we model the complex 3D scene as a collection of planes with varying sizes, where each plane is characterized by a unique set of parameters, namely planar normal (indicating plane orientation) and planar offset (defining the perpendicular distance from the camera center to the plane). Under this modeling, points in the same plane are enforced to share a unique representation, and their depth variations are related only to pixel coordinates. Thus, this geometric relationship can be exploited to regularize the depth variations of these points. To this end, we design a structured plane generation module that introduces temporal-spatial geometric cues and the plane uniqueness principle to recover the correct scene plane representation. In addition, we develop a depth discontinuity module to dynamically identify depth discontinuity regions and subsequently optimize them. Our experiments on the KITTI and NYUv2 datasets demonstrate that GeoDepth achieves state-of-the-art performance, with additional tests on Make3D and ScanNet validating its generalization capabilities.
+
+   </details>
+
++ **📄 Efficient Depth Estimation for Unstable Stereo Camera Systems on AR Glasses**
+
+   Authors: Yongfan Liu, Hyoukjun Kwon
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2411.10013-b31b1b.svg)](https://arxiv.org/abs/2411.10013)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Stereo depth estimation is a fundamental component in augmented reality (AR) applications. Although AR applications require very low latency for their real-time applications, traditional depth estimation models often rely on time-consuming preprocessing steps such as rectification to achieve high accuracy. Also, non-standard ML operator-based algorithms such as cost volume also require significant latency, which is aggravated on compute resource-constrained mobile platforms. Therefore, we develop hardware-friendly alternatives to the costly cost volume and preprocessing and design two new models based on them, MultiHeadDepth and HomoDepth. Our approaches for cost volume is replacing it with a new group-pointwise convolution-based operator and approximation of cosine similarity based on layernorm and dot product. For online stereo rectification (preprocessing), we introduce a homography matrix prediction network with a rectification positional encoding (RPE), which delivers both low latency and robustness to unrectified images, which eliminates the needs for preprocessing. Our MultiHeadDepth, which includes optimized cost volume, provides 11.8-30.3% improvements in accuracy and 22.9-25.2% reduction in latency compared to a state-of-the-art depth estimation model for AR glasses from industry. Our HomoDepth, which includes optimized preprocessing (Homography + RPE) upon MultiHeadDepth, can process unrectified images and reduce the end-to-end latency by 44.5%. We adopt a multitask learning framework to handle misaligned stereo inputs on HomoDepth, which reduces the AbsRel error by 10.0-24.3%. The results demonstrate the efficacy of our approaches in achieving both high model performance with low latency, which makes a step forward toward practical depth estimation on future AR devices.
+
+   </details>
+
++ **📄 FoundationStereo: Zero-Shot Stereo Matching**
+
+   Authors: Bowen Wen, Matthew Trepte, Joseph Aribido, Jan Kautz, Orazio Gallo, Stan Birchfield
+
+   Published: CVPR 2025 Oral
+
+   [![Paper](https://img.shields.io/badge/arXiv-2501.09898-b31b1b.svg)](https://arxiv.org/abs/2501.09898)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://nvlabs.github.io/FoundationStereo/)
+   [![Code](https://img.shields.io/github/stars/NVlabs/FoundationStereo.svg?style=social&label=Star)](https://github.com/NVlabs/FoundationStereo)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Tremendous progress has been made in deep stereo matching to excel on benchmark datasets through per-domain fine-tuning. However, achieving strong zero-shot generalization — a hallmark of foundation models in other computer vision tasks — remains challenging for stereo matching. We introduce FoundationStereo, a foundation model for stereo depth estimation designed to achieve strong zero-shot generalization. To this end, we first construct a large-scale (1M stereo pairs) synthetic training dataset featuring large diversity and high photorealism, followed by an automatic self-curation pipeline to remove ambiguous samples. We then design a number of network architecture components to enhance scalability, including a side-tuning feature backbone that adapts rich monocular priors from vision foundation models to mitigate the sim-to-real gap, and long-range context reasoning for effective cost volume filtering. Together, these components lead to strong robustness and accuracy across domains, establishing a new standard in zero-shot stereo depth estimation.
+
+   </details>
+
++ **📄 Synthetic-to-Real Self-supervised Robust Depth Estimation via Learning with Motion and Structure Priors**
+
+   Authors: Weilong Yan, Ming Li, Haipeng Li, Shuwei Shao, Robby T. Tan
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2503.20211-b31b1b.svg)](https://arxiv.org/abs/2503.20211)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Self-supervised depth estimation from monocular cameras in diverse outdoor conditions, such as daytime, rain, and nighttime, is challenging due to the difficulty of learning universal representations and the severe lack of labeled real-world adverse data. Previous methods either rely on synthetic inputs and pseudo-depth labels or directly apply daytime strategies to adverse conditions, resulting in suboptimal results. In this paper, we present the first synthetic-to-real robust depth estimation framework, incorporating motion and structure priors to capture real-world knowledge effectively. In the synthetic adaptation, we transfer motion-structure knowledge inside cost volumes for better robust representation, using a frozen daytime model to train a depth estimator in synthetic adverse conditions. In the innovative real adaptation, which targets to fix synthetic-real gaps, models trained earlier identify the weather-insensitive regions with a designed consistency-reweighting strategy to emphasize valid pseudo-labels. We introduce a new regularization by gathering explicit depth distribution to constrain the model facing real-world data. Experiments show that our method outperforms the state-of-the-art across diverse conditions in multi-frame and single-frame evaluations. We achieve improvements of 7.5% and 4.3% in AbsRel and RMSE on average for nuScenes and Robotcar datasets (daytime, nighttime, rain). In zero-shot evaluation of DrivingStereo (rain, fog), our method generalizes better than previous ones.
+
+   </details>
+
++ **📄 Depth Pro: Sharp Monocular Metric Depth in Less Than a Second**
+
+   Authors: Aleksei Bochkovskii, Amaël Delaunoy, Hugo Germain, Marcel Santos, Yichao Zhou, Stephan R. Richter, Vladlen Koltun
+
+   Published: arXiv 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2410.02073-b31b1b.svg)](https://arxiv.org/abs/2410.02073)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/apple/ml-depth-pro)
+   [![Code](https://img.shields.io/github/stars/apple/ml-depth-pro.svg?style=social&label=Star)](https://github.com/apple/ml-depth-pro)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   We present a foundation model for zero-shot metric monocular depth estimation.  
+   Our model, Depth Pro, synthesizes high-resolution depth maps with unparalleled sharpness and high-frequency details. The predictions are metric, with absolute scale, without relying on the availability of metadata such as camera intrinsics. And the model is fast, producing a 2.25-megapixel depth map in 0.3 seconds on a standard GPU. These characteristics are enabled by a number of technical contributions, including an efficient multi-scale vision transformer for dense prediction, a training protocol that combines real and synthetic datasets to achieve high metric accuracy alongside fine boundary tracing, dedicated evaluation metrics for boundary accuracy in estimated depth maps, and state-of-the-art focal length estimation from a single image. Extensive experiments analyze specific design choices and demonstrate that Depth Pro outperforms prior work along multiple dimensions. We release code & weights at [https://github.com/apple/ml-depth-pro](https://github.com/apple/ml-depth-pro).
+
+   </details>
 
 + **📄 UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler**
 
