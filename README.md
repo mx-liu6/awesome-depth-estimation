@@ -4,10 +4,7 @@ A curated list of papers and resources focused on Depth Estimation.
 ## Table of Contents  
 
 1. [Survey](#1-survey)  
-2. [Monocular Depth Estimation](#2-monocular-depth-estimation)
-    - [Metric Depth](#21-metric-depth)
-    - [Relative Depth](#22-relative-depth)      
-    - [Depth Completion](#23-depth-completion)  
+2. [Monocular Depth Estimation](#2-monocular-depth-estimation)  
 3. [Others (Fisheye, 360-degree)](#3-others-fisheye-360-degree)
 
 [Useful Datasets](#useful-datasets)  
@@ -53,6 +50,24 @@ A curated list of papers and resources focused on Depth Estimation.
 ## 2. Monocular Depth Estimation
 
 ### 2.1 Metric Depth
+
+
+
++ **📄 UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler**
+
+   Authors: Luigi Piccinelli, Christos Sakaridis, Yung-Hsu Yang, Mattia Segu, Siyuan Li, Wim Abbeloos, Luc Van Gool
+
+   Published: arXiv 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2502.20110-b31b1b.svg)](https://arxiv.org/abs/2502.20110)
+   [![Code](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth.svg?style=social&label=Star)](https://github.com/lpiccinelli-eth/UniDepth)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Accurate monocular metric depth estimation (MMDE) is crucial to solving downstream tasks in 3D perception and modeling. However, the remarkable accuracy of recent MMDE methods is confined to their training domains. These methods fail to generalize to unseen domains even in the presence of moderate domain gaps, which hinders their practical applicability. We propose a new model, UniDepthV2, capable of reconstructing metric 3D scenes from solely single images across domains. Departing from the existing MMDE paradigm, UniDepthV2 directly predicts metric 3D points from the input image at inference time without any additional information, striving for a universal and flexible MMDE solution. In particular, UniDepthV2 implements a self-promptable camera module predicting a dense camera representation to condition depth features. Our model exploits a pseudo-spherical output representation, which disentangles the camera and depth representations. In addition, we propose a geometric invariance loss that promotes the invariance of camera-prompted depth features. UniDepthV2 improves its predecessor UniDepth model via a new edge-guided loss which enhances the localization and sharpness of edges in the metric depth outputs, a revisited, simplified and more efficient architectural design, and an additional uncertainty-level output which enables downstream tasks requiring confidence. Thorough evaluations on ten depth datasets in a zero-shot regime consistently demonstrate the superior performance and generalization of UniDepthV2.
+
+   </details>
 
 + **📄 UniDepth: Universal Monocular Metric Depth Estimation**
 
