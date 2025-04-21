@@ -173,7 +173,7 @@ A curated list of papers and resources focused on Depth Estimation.
    Published: CVPR 2024
 
    [![Paper](https://img.shields.io/badge/arXiv-2312.14132-b31b1b.svg)](https://arxiv.org/pdf/2312.14132)
-   [![Project Page](https://img.shields.io/badge/Project_Page-00CED1)](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
+   [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
    [![Code](https://img.shields.io/github/stars/naver/dust3r.svg?style=social&label=Star)](https://github.com/naver/dust3r)
 
    <details>
