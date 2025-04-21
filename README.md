@@ -51,11 +51,94 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ### 2.1 Paper list
 
++ **📄 Align3R: Aligned Monocular Depth Estimation for Dynamic Videos**
+
+   Authors: Jiahao Lu, Tianyu Huang, Peng Li, Zhiyang Dou, Cheng Lin, Zhiming Cui, Zhen Dong, Sai-Kit Yeung, Wenping Wang, Yuan Liu
+
+   Published: CVPR 2025 Highlight
+
+   [![Paper](https://img.shields.io/badge/arXiv-2412.03079-b31b1b.svg)](https://arxiv.org/abs/2412.03079)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/jiah-cloud/Align3R)
+   [![Code](https://img.shields.io/github/stars/jiah-cloud/Align3R.svg?style=social&label=Star)](https://github.com/jiah-cloud/Align3R)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Recent developments in monocular depth estimation methods enable high-quality depth estimation of single-view images but fail to estimate consistent video depth across different frames. Recent works address this problem by applying a video diffusion model to generate video depth conditioned on the input video, which is training-expensive and can only produce scale-invariant depth values without camera poses. In this paper, we propose a novel video-depth estimation method called Align3R to estimate temporally consistent depth maps for a dynamic video. Our key idea is to utilize the recent DUSt3R model to align estimated monocular depth maps of different timesteps. First, we fine-tune the DUSt3R model with additional estimated monocular depth as inputs for the dynamic scenes. Then, we apply optimization to reconstruct both depth maps and camera poses. Extensive experiments demonstrate that Align3R estimates consistent video depth and camera poses for a monocular video with superior performance compared to baseline methods.
+
+   </details>
+
++ **📄 Vision-Language Embodiment for Monocular Depth Estimation**
+
+   Authors: Jinchang Zhang, Guoyu Lu
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2503.16535-b31b1b.svg)](https://www.arxiv.org/abs/2503.16535)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Depth estimation is a core problem in robotic perception and vision tasks, but 3D reconstruction from a single image presents inherent uncertainties. Current depth estimation models primarily rely on inter-image relationships for supervised training, often overlooking the intrinsic information provided by the camera itself. We propose a method that embodies the camera model and its physical characteristics into a deep learning model, computing embodied scene depth through real-time interactions with road environments. The model can calculate embodied scene depth in real-time based on immediate environmental changes using only the intrinsic properties of the camera, without any additional equipment. By combining embodied scene depth with RGB image features, the model gains a comprehensive perspective on both geometric and visual details. Additionally, we incorporate text descriptions containing environmental content and depth information as priors for scene understanding, enriching the model's perception of objects. This integration of image and language - two inherently ambiguous modalities - leverages their complementary strengths for monocular depth estimation. The real-time nature of the embodied language and depth prior model ensures that the model can continuously adjust its perception and behavior in dynamic environments. Experimental results show that the embodied depth estimation method enhances model performance across different scenes.
+
+   </details>
+
++ **📄 Depth Any Camera: Zero-Shot Metric Depth Estimation from Any Camera**
+
+   Authors: Yuliang Guo, Sparsh Garg, S. Mahdi H. Miangoleh, Xinyu Huang, Liu Ren
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2501.02464-b31b1b.svg)](https://arxiv.org/abs/2501.02464)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://yuliangguo.github.io/depth-any-camera/)
+   [![Code](https://img.shields.io/github/stars/yuliangguo/depth_any_camera.svg?style=social&label=Star)](https://github.com/yuliangguo/depth_any_camera)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   While recent depth foundation models exhibit strong zero-shot generalization, achieving accurate metric depth across diverse camera types-particularly those with large fields of view (FoV) such as fisheye and 360-degree cameras-remains a significant challenge. This paper presents Depth Any Camera (DAC), a powerful zero-shot metric depth estimation framework that extends a perspective-trained model to effectively handle cameras with varying FoVs. The framework is designed to ensure that all existing 3D data can be leveraged, regardless of the specific camera types used in new applications. Remarkably, DAC is trained exclusively on perspective images but generalizes seamlessly to fisheye and 360-degree cameras without the need for specialized training data. DAC employs Equi-Rectangular Projection (ERP) as a unified image representation, enabling consistent processing of images with diverse FoVs. Its core components include pitch-aware Image-to-ERP conversion with efficient online augmentation to simulate distorted ERP patches from undistorted inputs, FoV alignment operations to enable effective training across a wide range of FoVs, and multi-resolution data augmentation to further address resolution disparities between training and testing. DAC achieves state-of-the-art zero-shot metric depth estimation, improving δ1 accuracy by up to 50% on multiple fisheye and 360-degree datasets compared to prior metric depth foundation models, demonstrating robust generalization across camera types.
+
+   </details>
+
++ **📄 Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation**
+
+   Authors: Haotong Lin, Sida Peng, Jingxiao Chen, Songyou Peng, Jiaming Sun, Minghuan Liu, Hujun Bao, Jiashi Feng, Xiaowei Zhou, Bingyi Kang
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2412.14015-b31b1b.svg)](https://arxiv.org/abs/2412.14015)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://promptda.github.io/)
+   [![Code](https://img.shields.io/github/stars/DepthAnything/PromptDA.svg?style=social&label=Star)](https://github.com/DepthAnything/PromptDA)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Prompts play a critical role in unleashing the power of language and vision foundation models for specific tasks. For the first time, we introduce prompting into depth foundation models, creating a new paradigm for metric depth estimation termed Prompt Depth Anything. Specifically, we use a low-cost LiDAR as the prompt to guide the Depth Anything model for accurate metric depth output, achieving up to 4K resolution. Our approach centers on a concise prompt fusion design that integrates the LiDAR at multiple scales within the depth decoder. To address training challenges posed by limited datasets containing both LiDAR depth and precise GT depth, we propose a scalable data pipeline that includes synthetic data LiDAR simulation and real data pseudo GT depth generation. Our approach sets new state-of-the-arts on the ARKitScenes and ScanNet++ datasets and benefits downstream applications, including 3D reconstruction and generalized robotic grasping.
+
+   </details>
+
++ **📄 Helvipad: A Real-World Dataset for Omnidirectional Stereo Depth Estimation**
+
+   Authors: Mehdi Zayene, Jannik Endres, Albias Havolli, Charles Corbière, Salim Cherkaoui, Alexandre Kontouli, Alexandre Alahi
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2411.18335-b31b1b.svg)](https://arxiv.org/abs/2411.18335)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://vita-epfl.github.io/Helvipad/)
+   [![Code](https://img.shields.io/github/stars/vita-epfl/Helvipad.svg?style=social&label=Star)](https://github.com/vita-epfl/Helvipad)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Despite progress in stereo depth estimation, omnidirectional imaging remains underexplored, mainly due to the lack of appropriate data. We introduce Helvipad, a real-world dataset for omnidirectional stereo depth estimation, featuring 40K video frames from video sequences across diverse environments, including crowded indoor and outdoor scenes with various lighting conditions. Collected using two 360° cameras in a top-bottom setup and a LiDAR sensor, the dataset includes accurate depth and disparity labels by projecting 3D point clouds onto equirectangular images. Additionally, we provide an augmented training set with increased label density by using depth completion. We benchmark leading stereo depth estimation models for both standard and omnidirectional images. The results show that while recent stereo methods perform decently, a challenge persists in accurately estimating depth in omnidirectional imaging. To address this, we introduce necessary adaptations to stereo models, leading to improved performance.
+
+   </details>
+
 + **📄 Multi-view Reconstruction via SfM-guided Monocular Depth Estimation**
 
    Authors: Haoyu Guo, He Zhu, Sida Peng, Haotong Lin, Yunzhi Yan, Tao Xie, Wenguan Wang, Xiaowei Zhou, Hujun Bao
 
-   Published: CVPR 2025
+   Published: CVPR 2025 Oral
 
    [![Paper](https://img.shields.io/badge/arXiv-2503.14483-b31b1b.svg)](https://arxiv.org/abs/2503.14483)
    [![Project](https://img.shields.io/badge/Project-Page-blue)](https://zju3dv.github.io/murre/)
