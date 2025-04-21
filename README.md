@@ -60,7 +60,9 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Published: CVPR 2024
 
-   **[Paper](https://arxiv.org/pdf/2403.18913)** | **[Project](https://lpiccinelli-eth.github.io/pub/unidepth/)** | **[Code](https://github.com/lpiccinelli-eth/UniDepth)**
+   [![Paper](https://img.shields.io/badge/arXiv-2403.18913-b31b1b.svg)](https://arxiv.org/pdf/2403.18913)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://lpiccinelli-eth.github.io/pub/unidepth/)
+   [![Code](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth.svg?style=social&label=Star)](https://github.com/lpiccinelli-eth/UniDepth)
 
    <details>
    <summary>Click to view Abstract</summary>
@@ -77,8 +79,9 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Published: arXiv 2024
 
-   **[Paper](https://arxiv.org/pdf/2409.02095)** | **[Project](https://depthcrafter.github.io/)** | **[Code](https://github.com/Tencent/DepthCrafter)**
-
+   [![Paper](https://img.shields.io/badge/arXiv-2409.02095-b31b1b.svg)](https://arxiv.org/pdf/2409.02095)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://depthcrafter.github.io/)
+   [![Code](https://img.shields.io/github/stars/Tencent/DepthCrafter.svg?style=social&label=Star)](https://github.com/Tencent/DepthCrafter)
 
    <details>
    <summary>Click to view Abstract</summary>
@@ -95,8 +98,9 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Published: TPAMI 2024
 
-   **[Paper](https://arxiv.org/pdf/2404.15506)** | **[Project](https://jugghm.github.io/Metric3Dv2/)** | **[Code](https://github.com/YvanYin/Metric3D?tab=readme-ov-file)**
-
+   [![Paper](https://img.shields.io/badge/arXiv-2404.15506-b31b1b.svg)](https://arxiv.org/pdf/2404.15506)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://jugghm.github.io/Metric3Dv2/)
+   [![Code](https://img.shields.io/github/stars/YvanYin/Metric3D.svg?style=social&label=Star)](https://github.com/YvanYin/Metric3D?tab=readme-ov-file)
 
    <details>
    <summary>Click to view Abstract</summary>
@@ -114,8 +118,9 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Published: ICCV 2023
 
-   **[Paper](https://arxiv.org/pdf/2307.10984)** | **[Project](https://jugghm.github.io/Metric3Dv2/)** | **[Code](https://github.com/YvanYin/Metric3D?tab=readme-ov-file)**
-
+   [![Paper](https://img.shields.io/badge/arXiv-2307.10984-b31b1b.svg)](https://arxiv.org/pdf/2307.10984)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://jugghm.github.io/Metric3Dv2/)
+   [![Code](https://img.shields.io/github/stars/YvanYin/Metric3D.svg?style=social&label=Star)](https://github.com/YvanYin/Metric3D?tab=readme-ov-file)
 
    <details>
    <summary>Click to view Abstract</summary>
@@ -174,7 +179,9 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Published: arXiv 2024
 
-   **[Paper](https://arxiv.org/pdf/2412.18153)** | **[Project](https://johanan528.github.io/depthlab_web/)** | **[Code](https://github.com/ant-research/DepthLab)**
+   [![Paper](https://img.shields.io/badge/arXiv-2412.18153-b31b1b.svg)](https://arxiv.org/pdf/2412.18153)
+   [![Project](https://img.shields.io/badge/Project_Page-blue)](https://johanan528.github.io/depthlab_web/)
+   [![Code](https://img.shields.io/github/stars/ant-research/DepthLab.svg?style=social&label=Star)](https://github.com/ant-research/DepthLab)
 
 
    <details>
