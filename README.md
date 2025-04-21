@@ -172,8 +172,8 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Published: CVPR 2024
 
-   [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.14132)
-   [![Project](https://img.shields.io/badge/Project-Page-00CED1)](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
+   [![Paper](https://img.shields.io/badge/arXiv-2312.14132-b31b1b.svg)](https://arxiv.org/pdf/2312.14132)
+   [![Project Page](https://img.shields.io/badge/Project_Page-00CED1)](https://europe.naverlabs.com/research/publications/dust3r-geometric-3d-vision-made-easy/)
    [![Code](https://img.shields.io/github/stars/naver/dust3r.svg?style=social&label=Star)](https://github.com/naver/dust3r)
 
    <details>
@@ -182,6 +182,8 @@ A curated list of papers and resources focused on Depth Estimation.
    Multi-view stereo reconstruction (MVS) in the wild requires estimating camera parameters, such as intrinsic and extrinsic parameters, which are typically tedious and cumbersome to obtain. These parameters are essential for triangulating corresponding pixels in 3D space, a core aspect of high-performing MVS algorithms. In this work, we introduce DUSt3R, a novel paradigm for Dense and Unconstrained Stereo 3D Reconstruction of arbitrary image collections, operating without prior information about camera calibration or viewpoint poses. We reformulate the pairwise reconstruction problem as a regression of pointmaps, relaxing the constraints of traditional projective camera models. This formulation unifies monocular and binocular reconstruction cases. For scenarios with multiple images, we propose a simple yet effective global alignment strategy that aligns all pairwise pointmaps in a common reference frame. Our network architecture is based on standard Transformer encoders and decoders, leveraging powerful pretrained models. DUSt3R provides a direct 3D model of the scene, depth information, and seamlessly recovers pixel matches, relative, and absolute cameras. Extensive experiments demonstrate that DUSt3R unifies various 3D vision tasks and sets new SoTAs in monocular/multi-view depth estimation and relative pose estimation. In summary, DUSt3R simplifies many geometric 3D vision tasks.
 
    </details>
+
+
 
 
 ### 2.3 Depth Completion
