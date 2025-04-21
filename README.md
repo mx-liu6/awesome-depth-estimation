@@ -49,7 +49,24 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ## 2. Monocular Depth Estimation
 
-### 2.1 
+### 2.1 Paper list
+
++ **📄 Multi-view Reconstruction via SfM-guided Monocular Depth Estimation**
+
+   Authors: Haoyu Guo, He Zhu, Sida Peng, Haotong Lin, Yunzhi Yan, Tao Xie, Wenguan Wang, Xiaowei Zhou, Hujun Bao
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2503.14483-b31b1b.svg)](https://arxiv.org/abs/2503.14483)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://zju3dv.github.io/murre/)
+   [![Code](https://img.shields.io/github/stars/zju3dv/Murre.svg?style=social&label=Star)](https://github.com/zju3dv/Murre)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   In this paper, we present a new method for multi-view geometric reconstruction. In recent years, large vision models have rapidly developed, performing excellently across various tasks and demonstrating remarkable generalization capabilities. Some works use large vision models for monocular depth estimation, which have been applied to facilitate multi-view reconstruction tasks in an indirect manner. Due to the ambiguity of the monocular depth estimation task, the estimated depth values are usually not accurate enough, limiting their utility in aiding multi-view reconstruction. We propose to incorporate SfM information, a strong multi-view prior, into the depth estimation process, thus enhancing the quality of depth prediction and enabling their direct application in multi-view geometric reconstruction. Experimental results on public real-world datasets show that our method significantly improves the quality of depth estimation compared to previous monocular depth estimation works. Additionally, we evaluate the reconstruction quality of our approach in various types of scenes including indoor, streetscape, and aerial views, surpassing state-of-the-art MVS methods.
+
+   </details>
 
 + **📄 GeoDepth: From Point-to-Depth to Plane-to-Depth Modeling for Self-Supervised Monocular Depth Estimation**
 
