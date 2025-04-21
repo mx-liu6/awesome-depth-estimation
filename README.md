@@ -180,15 +180,14 @@ A curated list of papers and resources focused on Depth Estimation.
    Published: arXiv 2024
 
    [![Paper](https://img.shields.io/badge/arXiv-2412.18153-b31b1b.svg)](https://arxiv.org/pdf/2412.18153)
-   [![Project](https://img.shields.io/badge/Project_Page-blue)](https://johanan528.github.io/depthlab_web/)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://johanan528.github.io/depthlab_web/)
    [![Code](https://img.shields.io/github/stars/ant-research/DepthLab.svg?style=social&label=Star)](https://github.com/ant-research/DepthLab)
-
 
    <details>
    <summary>Click to view Abstract</summary>
 
    Missing values remain a common challenge for depth data across its wide range of applications, stemming from various causes like incomplete data acquisition and perspective alteration. This work bridges this gap with DepthLab, a foundation depth inpainting model powered by image diffusion priors. Our model features two notable strengths: (1) it demonstrates resilience to depth-deficient regions, providing reliable completion for both continuous areas and isolated points, and (2) it faithfully preserves scale consistency with the conditioned known depth when filling in missing values. Drawing on these advantages, our approach proves its worth in various downstream tasks, including 3D scene inpainting, text-to-3D scene generation, sparse-view reconstruction with DUST3R, and LiDAR depth completion, exceeding current solutions in both numerical performance and visual quality.
-  
+
    </details>
 
 
