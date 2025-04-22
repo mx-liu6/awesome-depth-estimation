@@ -51,6 +51,81 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ### 2.1 Paper list
 
++ **📄 Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation**
+
+   Authors: Haotong Lin, Sida Peng, Jingxiao Chen, Songyou Peng, Jiaming Sun, Minghuan Liu, Hujun Bao, Jiashi Feng, Xiaowei Zhou, Bingyi Kang
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2412.14015-b31b1b.svg)](https://arxiv.org/abs/2412.14015)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://promptda.github.io/)
+   [![Code](https://img.shields.io/github/stars/DepthAnything/PromptDA.svg?style=social&label=Star)](https://github.com/DepthAnything/PromptDA)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Prompts play a critical role in unleashing the power of language and vision foundation models for specific tasks. For the first time, we introduce prompting into depth foundation models, creating a new paradigm for metric depth estimation termed Prompt Depth Anything. Specifically, we use a low-cost LiDAR as the prompt to guide the Depth Anything model for accurate metric depth output, achieving up to 4K resolution. Our approach centers on a concise prompt fusion design that integrates the LiDAR at multiple scales within the depth decoder. To address training challenges posed by limited datasets containing both LiDAR depth and precise GT depth, we propose a scalable data pipeline that includes synthetic data LiDAR simulation and real data pseudo GT depth generation. Our approach sets new state-of-the-arts on the ARKitScenes and ScanNet++ datasets and benefits downstream applications, including 3D reconstruction and generalized robotic grasping.
+
+   </details>
+
++ **📄 Scalable Autoregressive Monocular Depth Estimation**
+
+  Authors: Jinhong Wang, Jian Liu, Dongqi Tang, Weiqiang Wang, Wentong Li, Danny Chen, Jintai Chen, Jian Wu
+
+  Published: CVPR 2025
+
+  [![Paper](https://img.shields.io/badge/arXiv-2411.11361-b31b1b.svg)](https://arxiv.org/abs/2411.11361)
+
+  <details>
+  <summary>Click to view Abstract</summary>
+
+  This paper shows that the autoregressive model is an effective and scalable monocular depth estimator. The idea is simple: tackle the monocular depth estimation (MDE) task with an autoregressive prediction paradigm, based on two core designs. First, the depth autoregressive model (DAR) treats the depth map of different resolutions as a set of tokens, and conducts the low-to-high resolution autoregressive objective with a patch-wise casual mask. Second, DAR recursively discretizes the entire depth range into more compact intervals, and attains the coarse-to-fine granularity autoregressive objective in an ordinal-regression manner. By coupling these two autoregressive objectives, DAR establishes new state-of-the-art (SOTA) on KITTI and NYU Depth v2 by clear margins. Further, the scalable approach allows scaling the model up to 2.0B and achieving the best RMSE of 1.799 on the KITTI dataset (5% improvement) compared to 1.896 by the current SOTA (Depth Anything). DAR further showcases zero-shot generalization ability on unseen datasets. These results suggest that DAR yields superior performance with an autoregressive prediction paradigm, providing a promising approach to equip modern autoregressive large models (e.g., GPT-4o) with depth estimation capabilities.
+
+  </details>
+
++ **📄 QuartDepth: Post-Training Quantization for Real-Time Depth Estimation on the Edge**
+
+   Authors: Xuan Shen, Weize Ma, Jing Liu, Changdi Yang, Rui Ding, Quanyi Wang, Henghui Ding, Wei Niu, Yanzhi Wang, Pu Zhao, Jun Lin, Jiuxiang Gu
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2503.16709-b31b1b.svg)](https://arxiv.org/abs/2503.16709)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Monocular Depth Estimation (MDE) has emerged as a pivotal task in computer vision, supporting numerous real-world applications. However, deploying accurate depth estimation models on resource-limited edge devices, especially Application-Specific Integrated Circuits (ASICs), is challenging due to the high computational and memory demands. Recent advancements in foundational depth estimation deliver impressive results but further amplify the difficulty of deployment on ASICs. To address this, we propose QuartDepth which adopts post-training quantization to quantize MDE models with hardware accelerations for ASICs. Our approach involves quantizing both weights and activations to 4-bit precision, reducing the model size and computation cost. To mitigate the performance degradation, we introduce activation polishing and compensation algorithm applied before and after activation quantization, as well as a weight reconstruction method for minimizing errors in weight quantization. Furthermore, we design a flexible and programmable hardware accelerator by supporting kernel fusion and customized instruction programmability, enhancing throughput and efficiency. Experimental results demonstrate that our framework achieves competitive accuracy while enabling fast inference and higher energy efficiency on ASICs, bridging the gap between high-performance depth estimation and practical edge-device applicability.
+
+   </details>
+
++ **📄 Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries**
+
+   Authors: Wei Xu, Charles James Wagner, Junjie Luo, Qi Guo
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2503.23606-b31b1b.svg)](https://arxiv.org/abs/2503.23606)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Extracting depth information from photon-limited, defocused images is challenging because depth from defocus (DfD) relies on accurate estimation of defocus blur, which is fundamentally sensitive to image noise. We present a novel approach to robustly measure object depths from photon-limited images along the defocused boundaries. It is based on a new image patch representation, Blurry-Edges, that explicitly stores and visualizes a rich set of low-level patch information, including boundaries, color, and smoothness. We develop a deep neural network architecture that predicts the Blurry-Edges representation from a pair of differently defocused images, from which depth can be calculated using a closed-form DfD relation we derive. The experimental results on synthetic and real data show that our method achieves the highest depth estimation accuracy on photon-limited images compared to a broad range of state-of-the-art DfD methods.
+
+   </details>
+
++ **📄 OmniStereo: Real-time Omnidirectional Depth Estimation with Multiview Fisheye Cameras**
+
+   Authors: Jiaxi Deng, Yushen Wang, Haitao Meng, Zuoxun Hou, Yi Chang, Gang Chen
+
+   Published: CVPR 2025
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Fast and reliable omnidirectional 3D sensing is essential to many applications such as autonomous driving, robotics, and drone navigation. While many well-recognized methods have been developed to produce high-quality omnidirectional 3D information, they are too slow for real-time computation, limiting their feasibility in practical applications. Motivated by these shortcomings, we propose an efficient omnidirectional depth sensing framework, called OmniStereo, which generates high-quality 3D information in real-time. Unlike prior works, OmniStereo employs Cassini projection to simplify the photometric matching and introduces a lightweight stereo matching network to minimize computational overhead. Additionally, OmniStereo proposes a novel fusion method to handle depth discontinuities and invalid pixels, complemented by a refinement module to reduce mapping-introduced errors and recover fine details. As a result, OmniStereo achieves state-of-the-art (SOTA) accuracy, surpassing the second-best method over 32% in MAE, while maintaining real-time efficiency. It operates more than 16.5× faster than the second-best method in accuracy on TITAN RTX, achieving 12.3 FPS on the embedded device Jetson AGX Orin, underscoring its suitability for real-world deployment. The code will be open-sourced upon acceptance of the paper.
+
+   </details>
+
 + **📄 Video Depth Anything: Consistent Depth Estimation for Super-Long Videos**
 
    Authors: Sili Chen, Hengkai Guo, Shengnan Zhu, Feihu Zhang, Zilong Huang, Jiashi Feng, Bingyi Kang
