@@ -51,6 +51,23 @@ A curated list of papers and resources focused on Depth Estimation.
 
 ### 2.1 Paper list
 
++ **📄 Video Depth Anything: Consistent Depth Estimation for Super-Long Videos**
+
+   Authors: Sili Chen, Hengkai Guo, Shengnan Zhu, Feihu Zhang, Zilong Huang, Jiashi Feng, Bingyi Kang
+
+   Published: CVPR 2025
+
+   [![Paper](https://img.shields.io/badge/arXiv-2501.12375-b31b1b.svg)](https://arxiv.org/abs/2501.12375)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://videodepthanything.github.io/)
+   [![Code](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything.svg?style=social&label=Star)](https://github.com/DepthAnything/Video-Depth-Anything)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Depth Anything has achieved remarkable success in monocular depth estimation with strong generalization ability. However, it suffers from temporal inconsistency in videos, hindering its practical applications. Various methods have been proposed to alleviate this issue by leveraging video generation models or introducing priors from optical flow and camera poses. Nonetheless, these methods are only applicable to short videos (< 10 seconds) and require a trade-off between quality and computational efficiency. We propose Video Depth Anything for high-quality, consistent depth estimation in super-long videos (over several minutes) without sacrificing efficiency. We base our model on Depth Anything V2 and replace its head with an efficient spatial-temporal head. We design a straightforward yet effective temporal consistency loss by constraining the temporal depth gradient, eliminating the need for additional geometric priors. The model is trained on a joint dataset of video depth and unlabeled images, similar to Depth Anything V2. Moreover, a novel key-frame-based strategy is developed for long video inference. Experiments show that our model can be applied to arbitrarily long videos without compromising quality, consistency, or generalization ability. Comprehensive evaluations on multiple video benchmarks demonstrate that our approach sets a new state-of-the-art in zero-shot video depth estimation. We offer models of different scales to support a range of scenarios, with our smallest model capable of real-time performance at 30 FPS.
+
+   </details>
+
 + **📄 Align3R: Aligned Monocular Depth Estimation for Dynamic Videos**
 
    Authors: Jiahao Lu, Tianyu Huang, Peng Li, Zhiyang Dou, Cheng Lin, Zhiming Cui, Zhen Dong, Sai-Kit Yeung, Wenping Wang, Yuan Liu
