@@ -309,7 +309,7 @@ A curated list of papers and resources focused on Depth Estimation.
 
    Authors: Aleksei Bochkovskii, Amaël Delaunoy, Hugo Germain, Marcel Santos, Yichao Zhou, Stephan R. Richter, Vladlen Koltun
 
-   Published: arXiv 2024
+   Published: ICLR 2025
 
    [![Paper](https://img.shields.io/badge/arXiv-2410.02073-b31b1b.svg)](https://arxiv.org/abs/2410.02073)
    [![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/apple/ml-depth-pro)
@@ -356,13 +356,11 @@ A curated list of papers and resources focused on Depth Estimation.
 
    </details>
 
-
-
 + **📄 DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos**
 
    Authors: Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan
 
-   Published: arXiv 2024
+   Published: CVPR 2025 Highlight
 
    [![Paper](https://img.shields.io/badge/arXiv-2409.02095-b31b1b.svg)](https://arxiv.org/pdf/2409.02095)
    [![Project](https://img.shields.io/badge/Project-Page-blue)](https://depthcrafter.github.io/)
@@ -374,7 +372,6 @@ A curated list of papers and resources focused on Depth Estimation.
    Estimating video depth in open-world scenarios is challenging due to the diversity of videos in appearance, content motion, camera movement, and length. We present DepthCrafter, an innovative method for generating temporally consistent long depth sequences with intricate details for open-world videos, without requiring any supplementary information such as camera poses or optical flow. The generalization ability to open-world videos is achieved by training the video-to-depth model from a pretrained image-to-video diffusion model, through our meticulously designed three-stage training strategy. Our training approach enables the model to generate depth sequences with variable lengths at one time, up to 110 frames, and harvest both precise depth details and rich content diversity from realistic and synthetic datasets. We also propose an inference strategy that can process extremely long videos through segment-wise estimation and seamless stitching. Comprehensive evaluations on multiple datasets reveal that DepthCrafter achieves state-of-the-art performance in open-world video depth estimation under zero-shot settings. Furthermore, DepthCrafter facilitates various downstream applications, including depth-based visual effects and conditional video generation.
 
    </details>
-
 
 
 + **📄 Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation**  
@@ -395,8 +392,6 @@ A curated list of papers and resources focused on Depth Estimation.
    </details>
 
 
-
-
 + **📄 Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image**  
 
    Authors: Wei Yin, Chi Zhang, Hao Chen, Zhipeng Cai, Gang Yu, Kaixuan Wang, Xiaozhi Chen, Chunhua Shen  
@@ -413,7 +408,257 @@ A curated list of papers and resources focused on Depth Estimation.
    Reconstructing accurate 3D scenes from images is a long-standing vision task. Due to the ill-posedness of the single-image reconstruction problem, most well-established methods are built upon multi-view geometry. State-of-the-art (SOTA) monocular metric depth estimation methods can only handle a single camera model and are unable to perform mixed-data training due to the metric ambiguity. Meanwhile, SOTA monocular methods trained on large mixed datasets achieve zero-shot generalization by learning affine-invariant depths, which cannot recover real-world metrics. In this work, we show that the key to a zero-shot single-view metric depth model lies in the combination of large-scale data training and resolving the metric ambiguity from various camera models. We propose a canonical camera space transformation module, which explicitly addresses the ambiguity problems and can be effortlessly plugged into existing monocular models. Equipped with our module, monocular models can be stably trained over 8 million of images with thousands of camera models, resulting in zero-shot generalization to in-the-wild images with unseen camera settings. Experiments demonstrate SOTA performance of our method on 7 zero-shot benchmarks. Notably, our method won the championship in the 2nd Monocular Depth Estimation Challenge. Our method enables the accurate recovery of metric 3D structures on randomly collected internet images, paving the way for plausible single-image metrology. The potential benefits extend to downstream tasks, which can be significantly improved by simply plugging in our model. For example, our model relieves the scale drift issues of monocular-SLAM, leading to high-quality metric scale dense mapping.
    </details>
 
++ **📄 WorDepth: Variational Language Prior for Monocular Depth Estimation**
 
+   Authors: Ziyao Zeng, Daniel Wang, Fengyu Yang, Hyoungseob Park, Yangchao Wu, Stefano Soatto, Byung-Woo Hong, Dong Lao, Alex Wong  
+   Published: CVPR 2024  
+
+   [![Paper](https://img.shields.io/badge/arXiv-2404.03635-b31b1b.svg)](https://arxiv.org/abs/2404.03635)  
+   [![Code](https://img.shields.io/github/stars/Adonis-galaxy/WorDepth.svg?style=social&label=Star)](https://github.com/Adonis-galaxy/WorDepth)  
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Three-dimensional (3D) reconstruction from a single image is an ill-posed problem with inherent ambiguities, i.e. scale. Predicting a 3D scene from text description(s) is similarly ill-posed, i.e. spatial arrangements of objects described. We investigate the question of whether two inherently ambiguous modalities can be used in conjunction to produce metric-scaled reconstructions. To test this, we focus on monocular depth estimation, the problem of predicting a dense depth map from a single image, but with an additional text caption describing the scene. To this end, we begin by encoding the text caption as a mean and standard deviation; using a variational framework, we learn the distribution of the plausible metric reconstructions of 3D scenes corresponding to the text captions as a prior. To "select" a specific reconstruction or depth map, we encode the given image through a conditional sampler that samples from the latent space of the variational text encoder, which is then decoded to the output depth map. Our approach is trained alternatingly between the text and image branches: in one optimization step, we predict the mean and standard deviation from the text description and sample from a standard Gaussian, and in the other, we sample using a (image) conditional sampler. Once trained, we directly predict depth from the encoded text using the conditional sampler. We demonstrate our approach on indoor (NYUv2) and outdoor (KITTI) scenarios, where we show that language can consistently improve performance in both.
+
+   </details>
+
++ **📄 Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation**
+
+   Authors: Bingxin Ke, Anton Obukhov, Shengyu Huang, Nando Metzger, Rodrigo Caye Daudt, Konrad Schindler  
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2312.02145-b31b1b.svg)](https://arxiv.org/abs/2312.02145)  
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://marigoldmonodepth.github.io/)  
+   [![Code](https://img.shields.io/github/stars/prs-eth/Marigold.svg?style=social&label=Star)](https://github.com/prs-eth/Marigold)  
+
+   <details>  
+   <summary>Click to view Abstract</summary>  
+
+   Monocular depth estimation is a fundamental computer vision task. Recovering 3D depth from a single image is geometrically ill-posed and requires scene understanding, so it is not surprising that the rise of deep learning has led to a breakthrough. The impressive progress of monocular depth estimators has mirrored the growth in model capacity, from relatively modest CNNs to large Transformer architectures. Still, monocular depth estimators tend to struggle when presented with images with unfamiliar content and layout, since their knowledge of the visual world is restricted by the data seen during training, and challenged by zero-shot generalization to new domains. This motivates us to explore whether the extensive priors captured in recent generative diffusion models can enable better, more generalizable depth estimation. We introduce Marigold, a method for affine-invariant monocular depth estimation that is derived from Stable Diffusion and retains its rich prior knowledge. The estimator can be fine-tuned in a couple of days on a single GPU using only synthetic training data. It delivers state-of-the-art performance across a wide range of datasets, including over 20% performance gains in specific cases.  
+
+   </details>
+
++ **📄 PatchFusion: An End-to-End Tile-Based Framework for High-Resolution Monocular Metric Depth Estimation**
+
+   Authors: Zhenyu Li, Shariq Farooq Bhat, Peter Wonka  
+
+   Published: CVPR 2024  
+
+   [![Paper](https://img.shields.io/badge/arXiv-2312.02284-b31b1b.svg)](https://arxiv.org/abs/2312.02284)  
+   [![Code](https://img.shields.io/github/stars/zhyever/PatchFusion.svg?style=social&label=Star)](https://github.com/zhyever/PatchFusion)  
+
+   <details>  
+   <summary>Click to view Abstract</summary>  
+
+   Single image depth estimation is a foundational task in computer vision and generative modeling. However, prevailing depth estimation models grapple with accommodating the increasing resolutions commonplace in today's consumer cameras and devices. Existing high-resolution strategies show promise, but they often face limitations, ranging from error propagation to the loss of high-frequency details. We present PatchFusion, a novel tile-based framework with three key components to improve the current state of the art: (1) A patch-wise fusion network that fuses a globally-consistent coarse prediction with finer, inconsistent tiled predictions via high-level feature guidance, (2) A Global-to-Local (G2L) module that adds vital context to the fusion network, discarding the need for patch selection heuristics, and (3) A Consistency-Aware Training (CAT) and Inference (CAI) approach, emphasizing patch overlap consistency and thereby eradicating the necessity for post-processing. Experiments on UnrealStereo4K, MVS-Synth, and Middleburry 2014 demonstrate that our framework can generate high-resolution depth maps with intricate details. PatchFusion is independent of the base model for depth estimation. Notably, our framework built on top of SOTA ZoeDepth brings improvements for a total of 17.3% and 29.4% in terms of the root mean squared error (RMSE) on UnrealStereo4K and MVS-Synth, respectively.  
+
+   </details>
+
++ **📄 From-Ground-To-Objects: Coarse-to-Fine Self-supervised Monocular Depth Estimation of Dynamic Objects with Ground Contact Prior**
+
+   Authors: Jaeho Moon, Juan Luis Gonzalez Bello, Byeongjun Kwon, Munchurl Kim
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2312.10118-b31b1b.svg)](https://arxiv.org/abs/2312.10118)
+   [![Code](https://img.shields.io/github/stars/KAIST-VICLab/From_Ground_To_Objects.svg?style=social&label=Star)](https://github.com/KAIST-VICLab/From_Ground_To_Objects)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Self-supervised monocular depth estimation (DE) is an approach to learning depth without costly depth ground truths. However, it often struggles with moving objects that violate the static scene assumption during training. To address this issue, we introduce a coarse-to-fine training strategy leveraging the ground contacting prior based on the observation that most moving objects in outdoor scenes contact the ground. In the coarse training stage, we exclude the objects in dynamic classes from the reprojection loss calculation to avoid inaccurate depth learning. To provide precise supervision on the depth of the objects, we present a novel Ground-contacting-prior Disparity Smoothness Loss (GDS-Loss) that encourages a DE network to align the depth of the objects with their ground-contacting points. Subsequently, in the fine training stage, we refine the DE network to learn the detailed depth of the objects from the reprojection loss, while ensuring accurate DE on the moving object regions by employing our regularization loss with a cost-volume-based weighting factor. Our overall coarse-to-fine training strategy can easily be integrated with existing DE methods without any modifications, significantly enhancing DE performance on challenging Cityscapes and KITTI datasets, especially in the moving object regions.
+
+   </details>
+
++ **📄 ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation**
+
+   Authors: Suraj Patni, Aradhye Agarwal, Chetan Arora
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2403.18807-b31b1b.svg)](https://arxiv.org/abs/2403.18807)
+   [![Code](https://img.shields.io/github/stars/Aradhye2002/EcoDepth.svg?style=social&label=Star)](https://github.com/Aradhye2002/EcoDepth)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   In the absence of parallax cues, a learning-based single image depth estimation (SIDE) model relies heavily on shading and contextual cues in the image. While this simplicity is attractive, it is necessary to train such models on large and varied datasets, which are difficult to capture. It has been shown that using embeddings from pre-trained foundational models, such as CLIP, improves zero shot transfer in several applications. Taking inspiration from this, in our paper we explore the use of global image priors generated from a pre-trained ViT model to provide more detailed contextual information. We argue that the embedding vector from a ViT model, pre-trained on a large dataset, captures greater relevant information for SIDE than the usual route of generating pseudo image captions, followed by CLIP based text embeddings. Based on this idea, we propose a new SIDE model using a diffusion backbone which is conditioned on ViT embeddings. Our proposed design establishes a new state-of-the-art (SOTA) for SIDE on NYUv2 dataset, achieving Abs Rel error of 0.059 (14% improvement) compared to 0.069 by the current SOTA (VPD). And on KITTI dataset, achieving Sq Rel error of 0.139 (2% improvement) compared to 0.142 by the current SOTA (GEDepth). For zero-shot transfer with a model trained on NYUv2, we report mean relative improvement of (20%, 23%, 81%, 25%) over NeWCRFs on (Sun-RGBD, iBims1, DIODE, HyperSim) datasets, compared to (16%, 18%, 45%, 9%) by ZoeDepth.
+
+   </details>
+
++ **📄 Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation**
+
+   Authors: Hoang Chuong Nguyen, Tianyu Wang, Jose M. Alvarez, Miaomiao Liu
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2404.14908-b31b1b.svg)](https://arxiv.org/abs/2404.14908)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   This paper focuses on self-supervised monocular depth estimation in dynamic scenes trained on monocular videos. Existing methods jointly estimate pixel-wise depth and motion, relying mainly on an image reconstruction loss. Dynamic regions remain a critical challenge for these methods due to the inherent ambiguity in depth and motion estimation, resulting in inaccurate depth estimation. This paper proposes a self-supervised training framework exploiting pseudo depth labels for dynamic regions from training data. The key contribution of our framework is to decouple depth estimation for static and dynamic regions of images in the training data. We start with an unsupervised depth estimation approach, which provides reliable depth estimates for static regions and motion cues for dynamic regions and allows us to extract moving object information at the instance level. In the next stage, we use an object network to estimate the depth of those moving objects assuming rigid motions. Then, we propose a new scale alignment module to address the scale ambiguity between estimated depths for static and dynamic regions. We can then use the depth labels generated to train an end-to-end depth estimation network and improve its performance. Extensive experiments on the Cityscapes and KITTI datasets show that our self-training strategy consistently outperforms existing self/unsupervised depth estimation methods.
+
+   </details>
+
++ **📄 Mind The Edge: Refining Depth Edges in Sparsely-Supervised Monocular Depth Estimation**
+
+   Authors: Lior Talker, Aviad Cohen, Erez Yosef, Alexandra Dana, Michael Dinerstein
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2212.05315-b31b1b.svg)](https://arxiv.org/abs/2212.05315)
+   [![Code](https://img.shields.io/github/stars/liortalker/MindTheEdge.svg?style=social&label=Star)](https://github.com/liortalker/MindTheEdge)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Monocular Depth Estimation (MDE) is a fundamental problem in computer vision with numerous applications. Recently, LIDAR-supervised methods have achieved remarkable per-pixel depth accuracy in outdoor scenes. However, significant errors are typically found in the proximity of depth discontinuities, i.e., depth edges, which often hinder the performance of depth-dependent applications that are sensitive to such inaccuracies, e.g., novel view synthesis and augmented reality. Since direct supervision for the location of depth edges is typically unavailable in sparse LIDAR-based scenes, encouraging the MDE model to produce correct depth edges is not straightforward. To the best of our knowledge this paper is the first attempt to address the depth edges issue for LIDAR-supervised scenes. In this work we propose to learn to detect the location of depth edges from densely-supervised synthetic data, and use it to generate supervision for the depth edges in the MDE training. To quantitatively evaluate our approach, and due to the lack of depth edges GT in LIDAR-based scenes, we manually annotated subsets of the KITTI and the DDAD datasets with depth edges ground truth. We demonstrate significant gains in the accuracy of the depth edges with comparable per-pixel depth accuracy on several challenging datasets.
+
+   </details>
+
++ **📄 Elite360D: Towards Efficient 360 Depth Estimation via Semantic- and Distance-Aware Bi-Projection Fusion**
+
+   Authors: Hao Ai, Lin Wang
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2403.16376-b31b1b.svg)](https://arxiv.org/abs/2403.16376)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   360 depth estimation has recently received great attention for 3D reconstruction owing to its omnidirectional field of view (FoV). Recent approaches are predominantly focused on cross-projection fusion with geometry-based re-projection: they fuse 360 images with equirectangular projection (ERP) and another projection type, e.g., cubemap projection to estimate depth with the ERP format. However, these methods suffer from 1) limited local receptive fields, making it hardly possible to capture large FoV scenes, and 2) prohibitive computational cost, caused by the complex cross-projection fusion module design. In this paper, we propose Elite360D, a novel framework that inputs the ERP image and icosahedron projection (ICOSAP) point set, which is undistorted and spatially continuous. Elite360D is superior in its capacity in learning a representation from a local-with-global perspective. With a flexible ERP image encoder, it includes an ICOSAP point encoder, and a Bi-projection Bi-attention Fusion (B2F) module (totally ~1M parameters). Specifically, the ERP image encoder can take various perspective image-trained backbones (e.g., ResNet, Transformer) to extract local features. The point encoder extracts the global features from the ICOSAP. Then, the B2F module captures the semantic- and distance-aware dependencies between each pixel of the ERP feature and the entire ICOSAP feature set. Without specific backbone design and obvious computational cost increase, Elite360D outperforms the prior arts on several benchmark datasets.
+
+   </details>
+
++ **📄 Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion**
+
+   Authors: Fan Zhang, Shaodi You, Yu Li, Ying Fu
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2312.12471-b31b1b.svg)](https://arxiv.org/abs/2312.12471)
+   [![Code](https://img.shields.io/github/stars/zkawfanx/Atlantis.svg?style=social&label=Star)](https://github.com/zkawfanx/Atlantis)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Monocular depth estimation has experienced significant progress on terrestrial images in recent years, largely due to deep learning advancements. However, it remains inadequate for underwater scenes, primarily because of data scarcity. Given the inherent challenges of light attenuation and backscattering in water, acquiring clear underwater images or precise depth information is notably difficult and costly. Consequently, learning-based approaches often rely on synthetic data or turn to unsupervised or self-supervised methods to mitigate this lack of data. Nonetheless, the performance of these methods is often constrained by the domain gap and looser constraints. In this paper, we propose a novel pipeline for generating photorealistic underwater images using accurate terrestrial depth data. This approach facilitates the training of supervised models for underwater depth estimation, effectively reducing the performance disparity between terrestrial and underwater environments. Contrary to prior synthetic datasets that merely apply style transfer to terrestrial images without altering the scene content, our approach uniquely creates vibrant, non-existent underwater scenes by leveraging terrestrial depth data through the innovative Stable Diffusion model. Specifically, we introduce a unique Depth2Underwater ControlNet, trained on specially prepared \{Underwater, Depth, Text\} data triplets, for this generation task. Our newly developed dataset enables terrestrial depth estimation models to achieve considerable improvements, both quantitatively and qualitatively, on unseen underwater images, surpassing their terrestrial pre-trained counterparts. Moreover, the enhanced depth accuracy for underwater scenes also aids underwater image restoration techniques that rely on depth maps, further demonstrating our dataset's utility.
+
+   </details>
+
++ **📄 Cross-spectral Gated-RGB Stereo Depth Estimation**
+
+   Authors: Samuel Brucker, Stefanie Walz, Mario Bijelic, Felix Heide
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2405.12759-b31b1b.svg)](https://arxiv.org/abs/2405.12759)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Gated cameras flood-illuminate a scene and capture the time-gated impulse response of a scene. By employing nanosecond-scale gates, existing sensors are capable of capturing mega-pixel gated images, delivering dense depth improving on today's LiDAR sensors in spatial resolution and depth precision. Although gated depth estimation methods deliver a million of depth estimates per frame, their resolution is still an order below existing RGB imaging methods. In this work, we combine high-resolution stereo HDR RCCB cameras with gated imaging, allowing us to exploit depth cues from active gating, multi-view RGB and multi-view NIR sensing -- multi-view and gated cues across the entire spectrum. The resulting capture system consists only of low-cost CMOS sensors and flood-illumination. We propose a novel stereo-depth estimation method that is capable of exploiting these multi-modal multi-view depth cues, including the active illumination that is measured by the RCCB camera when removing the IR-cut filter. The proposed method achieves accurate depth at long ranges, outperforming the next best existing method by 39% for ranges of 100 to 220m in MAE on accumulated LiDAR ground-truth.
+
+   </details>
+
++ **📄 Depth Prompting for Sensor-Agnostic Depth Estimation**
+
+   Authors: Jin-Hwi Park, Chanhwi Jeong, Junoh Lee, Hae-Gon Jeon
+
+   Published: CVPR 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2405.11867-b31b1b.svg)](https://arxiv.org/abs/2405.11867)
+   [![Code](https://img.shields.io/github/stars/JinhwiPark/DepthPrompting.svg?style=social&label=Star)](https://github.com/JinhwiPark/DepthPrompting)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Dense depth maps have been used as a key element of visual perception tasks. There have been tremendous efforts to enhance the depth quality, ranging from optimization-based to learning-based methods. Despite the remarkable progress for a long time, their applicability in the real world is limited due to systematic measurement biases such as density, sensing pattern, and scan range. It is well-known that the biases make it difficult for these methods to achieve their generalization. We observe that learning a joint representation for input modalities (e.g., images and depth), which most recent methods adopt, is sensitive to the biases. In this work, we disentangle those modalities to mitigate the biases with prompt engineering. For this, we design a novel depth prompt module to allow the desirable feature representation according to new depth distributions from either sensor types or scene configurations. Our depth prompt can be embedded into foundation models for monocular depth estimation. Through this embedding process, our method helps the pretrained model to be free from restraint of depth scan range and to provide absolute scale depth maps. We demonstrate the effectiveness of our method through extensive evaluations.
+
+   </details>
+
++ **📄 SE(3) Equivariant Ray Embeddings for Implicit Multi-View Depth Estimation**
+
+   Authors: Yinshuang Xu, Dian Chen, Katherine Liu, Sergey Zakharov, Rares Ambrus, Kostas Daniilidis, Vitor Guizilini
+
+   Published: NeurIPS 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2411.07326-b31b1b.svg)](https://arxiv.org/abs/2411.07326)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Incorporating inductive bias by embedding geometric entities (such as rays) as input has proven successful in multi-view learning. However, the methods adopting this technique typically lack equivariance, which is crucial for effective 3D learning. Equivariance serves as a valuable inductive prior, aiding in the generation of robust multi-view features for 3D scene understanding. In this paper, we explore the application of equivariant multi-view learning to depth estimation, not only recognizing its significance for computer vision and robotics but also addressing the limitations of previous research. Most prior studies have either overlooked equivariance in this setting or achieved only approximate equivariance through data augmentation, which often leads to inconsistencies across different reference frames. To address this issue, we propose to embed SE(3) equivariance into the Perceiver IO architecture. We employ Spherical Harmonics for positional encoding to ensure 3D rotation equivariance, and develop a specialized equivariant encoder and decoder within the Perceiver IO architecture. To validate our model, we applied it to the task of stereo depth estimation, achieving state of the art results on real-world datasets without explicit geometric constraints or extensive data augmentation.
+
+   </details>
+
++ **📄 BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation**
+
+   Authors: Xiang Zhang, Bingxin Ke, Hayko Riemenschneider, Nando Metzger, Anton Obukhov, Markus Gross, Konrad Schindler, Christopher Schroers
+
+   Published: NeurIPS 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2407.17952-b31b1b.svg)](https://arxiv.org/abs/2407.17952)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   By training over large-scale datasets, zero-shot monocular depth estimation (MDE) methods show robust performance in the wild but often suffer from insufficient detail. Although recent diffusion-based MDE approaches exhibit a superior ability to extract details, they struggle in geometrically complex scenes that challenge their geometry prior, trained on less diverse 3D data. To leverage the complementary merits of both worlds, we propose BetterDepth to achieve geometrically correct affine-invariant MDE while capturing fine details. Specifically, BetterDepth is a conditional diffusion-based refiner that takes the prediction from pre-trained MDE models as depth conditioning, in which the global depth layout is well-captured, and iteratively refines details based on the input image. For the training of such a refiner, we propose global pre-alignment and local patch masking methods to ensure BetterDepth remains faithful to the depth conditioning while learning to add fine-grained scene details. With efficient training on small-scale synthetic datasets, BetterDepth achieves state-of-the-art zero-shot MDE performance on diverse public datasets and on in-the-wild scenes. Moreover, BetterDepth can improve the performance of other MDE models in a plug-and-play manner without further re-training.
+
+   </details>
+
++ **📄 Depth Anything V2**
+
+   Authors: Lihe Yang, Bingyi Kang, Zilong Huang, Zhen Zhao, Xiaogang Xu, Jiashi Feng, Hengshuang Zhao
+
+   Published: NeurIPS 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2406.09414-b31b1b.svg)](https://arxiv.org/abs/2406.09414)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://depth-anything-v2.github.io/)
+   [![Code](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2.svg?style=social&label=Star)](https://github.com/DepthAnything/Depth-Anything-V2)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   This work presents Depth Anything V2. Without pursuing fancy techniques, we aim to reveal crucial findings to pave the way towards building a powerful monocular depth estimation model. Notably, compared with V1, this version produces much finer and more robust depth predictions through three key practices: 1) replacing all labeled real images with synthetic images, 2) scaling up the capacity of our teacher model, and 3) teaching student models via the bridge of large-scale pseudo-labeled real images. Compared with the latest models built on Stable Diffusion, our models are significantly more efficient (more than 10x faster) and more accurate. We offer models of different scales (ranging from 25M to 1.3B params) to support extensive scenarios. Benefiting from their strong generalization capability, we fine-tune them with metric depth labels to obtain our metric depth models. In addition to our models, considering the limited diversity and frequent noise in current test sets, we construct a versatile evaluation benchmark with precise annotations and diverse scenes to facilitate future research.
+
+   </details>
+
++ **📄 Depth Anywhere: Enhancing 360 Monocular Depth Estimation via Perspective Distillation and Unlabeled Data Augmentation**
+
+   Authors: Ning-Hsu Wang, Yu-Lun Liu
+
+   Published: NeurIPS 2024
+
+   [![Paper](https://img.shields.io/badge/arXiv-2406.12849-b31b1b.svg)](https://arxiv.org/abs/2406.12849)
+   [![Project](https://img.shields.io/badge/Project-Page-blue)](https://albert100121.github.io/Depth-Anywhere/)
+   [![Code](https://img.shields.io/github/stars/albert100121/Depth-Anywhere.svg?style=social&label=Star)](https://github.com/albert100121/Depth-Anywhere)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Accurately estimating depth in 360-degree imagery is crucial for virtual reality, autonomous navigation, and immersive media applications. Existing depth estimation methods designed for perspective-view imagery fail when applied to 360-degree images due to different camera projections and distortions, whereas 360-degree methods perform inferior due to the lack of labeled data pairs. We propose a new depth estimation framework that utilizes unlabeled 360-degree data effectively. Our approach uses state-of-the-art perspective depth estimation models as teacher models to generate pseudo labels through a six-face cube projection technique, enabling efficient labeling of depth in 360-degree images. This method leverages the increasing availability of large datasets. Our approach includes two main stages: offline mask generation for invalid regions and an online semi-supervised joint training regime. We tested our approach on benchmark datasets such as Matterport3D and Stanford2D3D, showing significant improvements in depth estimation accuracy, particularly in zero-shot scenarios. Our proposed training pipeline can enhance any 360 monocular depth estimator and demonstrates effective knowledge transfer across different camera projections and data types.
+
+   </details>
+
++ **📄 Metric from Human: Zero-shot Monocular Metric Depth Estimation via Test-time Adaptation**
+
+   Authors: Yizhou Zhao, Hengwei Bian, Kaihua Chen, Pengliang Ji, Liao Qu, Shao-yu Lin, Weichen Yu, Haoran Li, Hao Chen, Jun Shen, Bhiksha Raj, Min Xu
+
+   Published: NeurIPS 2024
+
+   [![Code](https://img.shields.io/github/stars/Skaldak/MfH.svg?style=social&label=Star)](https://github.com/Skaldak/MfH)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Monocular depth estimation (MDE) is fundamental for deriving 3D scene structures from 2D images. While state-of-the-art monocular relative depth estimation (MRDE) excels in estimating relative depths for in-the-wild images, current monocular metric depth estimation (MMDE) approaches still face challenges in handling unseen scenes. Since MMDE can be viewed as the composition of MRDE and metric scale recovery, we attribute this difficulty to scene dependency, where MMDE models rely on scenes observed during supervised training for predicting scene scales during inference. To address this issue, we propose to use humans as landmarks for distilling scene-independent metric scale priors from generative painting models. Our approach, Metric from Human (MfH), bridges from generalizable MRDE to zero-shot MMDE in a generate-and-estimate manner. Specifically, MfH generates humans on the input image with generative painting and estimates human dimensions with an off-the-shelf human mesh recovery (HMR) model. Based on MRDE predictions, it propagates the metric information from painted humans to the contexts, resulting in metric depth estimations for the original input. Through this annotation-free test-time adaptation, MfH achieves superior zero-shot performance in MMDE, demonstrating its strong generalization ability.
+
+   </details>
 
 
 ### 2.2 Relative Depth
