@@ -4,13 +4,13 @@ We build this repo by the structure from Article, you can just check the link to
 
 ## Table of Contents  
 
-1. [Introduction and Background]
-2. [Problem Setup and Datasets]
-3. [Depth Estimation Prior to Foundation Models]
-4. [Foundation Models for Monocular Depth Estimation]
-5. [Downstream Applications of Depth Estimation]
-6. [Future Research Directions]
-7. [Conclusion)
+** 1. Introduction and Background ** 
+** 2. Problem Setup and Datasets **
+** 3. Depth Estimation Prior to Foundation Models **
+** 4. Foundation Models for Monocular Depth Estimation **
+** 5. Downstream Applications of Depth Estimation ** 
+** 6. Future Research Directions ** 
+** 7. Conclusion **
 
 [Useful Datasets](#useful-datasets)  
 [Evaluation Metrics](#evaluation-metrics)  
