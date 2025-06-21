@@ -1,11 +1,16 @@
-# Awesome-Depth-Estimation
-A curated list of papers and resources focused on Depth Estimation. 
+# Monocular Depth Estimation: A Survey
+This repository is relate to our Review Article -- Monocular Depth Estimation: A Survey
+We build this repo by the structure from Article, you can just check the link to any paper showned in the article.
 
 ## Table of Contents  
 
-1. [Survey](#1-survey)  
-2. [Monocular Depth Estimation](#2-monocular-depth-estimation)  
-3. [Others (Fisheye, 360-degree)](#3-others-fisheye-360-degree)
+1. [Introduction and Background]
+2. [Problem Setup and Datasets]
+3. [Depth Estimation Prior to Foundation Models]
+4. [Foundation Models for Monocular Depth Estimation]
+5. [Downstream Applications of Depth Estimation]
+6. [Future Research Directions]
+7. [Conclusion)
 
 [Useful Datasets](#useful-datasets)  
 [Evaluation Metrics](#evaluation-metrics)  
