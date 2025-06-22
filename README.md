@@ -17,6 +17,73 @@ We build this repo by the structure from Article, you can just check the link to
 
 ---
 
+## 1. Introduction and Background 
+
++ **📄 A Taxonomy and Evaluation of Dense Two-Frame Stereo Correspondence Algorithms**
+
+   Authors: Daniel Scharstein, Richard Szeliski
+
+   Published: IJCV 2002
+
+   [![Paper](https://img.shields.io/badge/Paper-PDF-green)](https://vision.middlebury.edu/stereo/taxonomy-IJCV.pdf)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Stereo matching is one of the most active research areas in computer vision. While a large number of algorithms for stereo correspondence have been developed, relatively little work has been done on characterizing their performance. In this paper, we present a taxonomy of dense, two-frame stereo methods. Our taxonomy is designed to assess the different components and design decisions made in individual stereo algorithms. Using this taxonomy, we compare existing stereo methods and present experiments evaluating the performance of many different variants. In order to establish a common software platform and a collection of data sets for easy evaluation, we have designed a stand-alone, flexible C++ implementation that enables the evaluation of individual components and that can easily be extended to include new algorithms. We have also produced several new multi-frame stereo data sets with ground truth and are making both the code and data sets available on the Web. Finally, we include a comparative evaluation of a large set of today’s best-performing stereo algorithms.
+
+   </details>
+
++ **📄 Make3D: Depth Perception from a Single Still Image**
+
+   Authors: Ashutosh Saxena, Min Sun, Andrew Ng
+
+   Published: AAAI 2008
+
+   [![Paper](https://img.shields.io/badge/Paper-PDF-green)](https://www.cs.cornell.edu/~asaxena/reconstruction3d/Saxena_depthperception_aaai08.pdf)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Humans have an amazing ability to perceive depth from a single still image; however, it remains a challenging problem for current computer vision systems. In this paper, we will present algorithms for estimating depth from a single still image. There are numerous monocular cues—such as texture variations and gradients, defocus, color/haze, etc.—that can be used for depth perception. Taking a supervised learning approach to this problem, in which we begin by collecting a training set of single images and their corresponding groundtruth depths, we learn the mapping from image features to the depths. We then apply these ideas to create 3-d models that are visually-pleasing as
+
++ **📄 Depth Map Prediction from a Single Image Using a Multi-Scale Deep Network**
+
+   Authors: David Eigen, Christian Puhrsch, Rob Fergus
+
+   Published: NeurIPS 2014
+
+   [![Paper](https://img.shields.io/badge/arXiv-1406.2283-b31b1b.svg)](https://arxiv.org/pdf/1406.2283)
+   [![Code](https://img.shields.io/github/stars/imran3180/depth-map-prediction.svg?style=social&label=Star)](https://github.com/imran3180/depth-map-prediction)
+
+   <details>
+   <summary>Click to view Abstract</summary>
+
+   Predicting depth is an essential component in understanding the 3D geometry of a scene. While for stereo images local correspondence suffices for estimation, finding depth relations from a single image is less straightforward, requiring integration of both global and local information from various cues. Moreover, the task is inherently ambiguous, with a large source of uncertainty coming from the overall scale. In this paper, we present a new method that addresses this task by employing two deep network stacks: one that makes a coarse global prediction based on the entire image, and another that refines this prediction locally. We also apply a scale-invariant error to help measure depth relations rather than scale. By leveraging the raw datasets as large sources of training data, our method achieves state-of-the-art results on both NYU Depth and KITTI, and matches detailed depth boundaries without the need for superpixelation.
+
+   </details>
+
+
+## 2. Problem Setup and Datasets 
+
+
+## 3. Depth Estimation Prior to Foundation Models 
+
+
+## 4. Foundation Models for Monocular Depth Estimation 
+
+
+## 5. Downstream Applications of Depth Estimation 
+
+
+## 6. Future Research Directions 
+
+
+## 7. Conclusion 
+
+
+
+
 ## 1. Survey
 
 + 📄 **A Systematic Literature Review on Deep Learning-based Depth Estimation in Computer Vision**  
